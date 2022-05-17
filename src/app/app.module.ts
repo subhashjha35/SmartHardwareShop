@@ -10,10 +10,20 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { reducers, metaReducers } from './reducers';
 import { environment } from '../environments/environment';
 import { AppEffects } from './effects/app.effects';
+import { HeaderComponent } from './components/header/header.component';
+import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
+import { ProductListComponent } from './components/product-list/product-list.component';
+import { ProductComponent } from './components/product-list/product/product.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    ShoppingCartComponent,
+    ProductListComponent,
+    ProductComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
