@@ -15,6 +15,9 @@ import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { ProductComponent } from './components/product-list/product/product.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatCardModule } from '@angular/material/card';
+import { MainComponent } from './components/main/main.component';
 
 @NgModule({
   declarations: [
@@ -23,13 +26,15 @@ import { BannerComponent } from './components/banner/banner.component';
     ShoppingCartComponent,
     ProductListComponent,
     ProductComponent,
-    BannerComponent
+    BannerComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatCardModule,
+    FlexLayoutModule,
     EffectsModule.forRoot([AppEffects]),
-    StoreModule.forRoot([]),
     environment.production ? [] : StoreDevtoolsModule.instrument({
       maxAge: 25 //  Retains last 25 states
     }),
