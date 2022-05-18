@@ -1,3 +1,4 @@
+import { productReducer } from './reducers/product/products.reducer';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -17,38 +18,48 @@ import { ProductComponent } from './components/product-list/product/product.comp
 import { BannerComponent } from './components/banner/banner.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MainComponent } from './components/main/main.component';
+import { ProductEffects } from './effects/product.effects';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    ShoppingCartComponent,
-    ProductListComponent,
-    ProductComponent,
-    BannerComponent,
-    MainComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    MatCardModule,
-    FlexLayoutModule,
-    EffectsModule.forRoot([AppEffects]),
-    environment.production ? [] : StoreDevtoolsModule.instrument({
-      maxAge: 25 //  Retains last 25 states
-    }),
-    BrowserAnimationsModule,
-    StoreModule.forRoot(reducers, {
-      metaReducers,
-      runtimeChecks: {
-        strictStateImmutability: true,
-        strictActionImmutability: true,
-        strictActionTypeUniqueness: true
-      }
-    }),
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+	declarations: [
+		AppComponent,
+		HeaderComponent,
+		ShoppingCartComponent,
+		ProductListComponent,
+		ProductComponent,
+		BannerComponent,
+		MainComponent,
+	],
+	imports: [
+		BrowserModule,
+		AppRoutingModule,
+		MatCardModule,
+		MatIconModule,
+		MatProgressSpinnerModule,
+		FlexLayoutModule,
+		HttpClientModule,
+		StoreModule.forRoot(reducers, {
+			metaReducers,
+			runtimeChecks: {
+				strictStateImmutability: true,
+				strictActionImmutability: true,
+				strictActionTypeUniqueness: true,
+			},
+		}),
+		StoreModule.forFeature('products', productReducer),
+		EffectsModule.forRoot([AppEffects, ProductEffects]),
+		environment.production
+			? []
+			: StoreDevtoolsModule.instrument({
+					maxAge: 25, //  Retains last 25 states
+			  }),
+		BrowserAnimationsModule,
+	],
+	providers: [],
+	bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

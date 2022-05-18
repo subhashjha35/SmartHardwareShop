@@ -1,1 +1,7 @@
-<p>product works!</p>
+<mat-card *ngIf="!!item && !!item.id">
+	<img [src]="item?.defaultImage" alt="" class="img-responsive" />
+	<div class="item-title">
+		<h3>{{ item?.name }}</h3>
+		<h5>{{ item?.description }}</h5>
+	</div>
+</mat-card>

@@ -121,6 +121,63 @@
     ora "5.4.1"
     rxjs "6.6.7"
 
+"@angular-eslint/builder@13.2.1":
+  version "13.2.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@angular-eslint/builder/-/builder-13.2.1.tgz?dl=https://registry.yarnpkg.com/@angular-eslint/builder/-/builder-13.2.1.tgz#8bcff02fd930bbedd5522ff71a0f47a844c3acd4"
+  integrity sha1-i8/wL9kwu+3VUi/3Gg9HqETDrNQ=
+  dependencies:
+    "@nrwl/devkit" "13.1.3"
+
+"@angular-eslint/bundled-angular-compiler@13.2.1":
+  version "13.2.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@angular-eslint/bundled-angular-compiler/-/bundled-angular-compiler-13.2.1.tgz?dl=https://registry.yarnpkg.com/@angular-eslint/bundled-angular-compiler/-/bundled-angular-compiler-13.2.1.tgz#adefaafc45a77ef286efe587a72371ded8e0c6af"
+  integrity sha1-re+q/EWnfvKG7+WHpyNx3tjgxq8=
+
+"@angular-eslint/eslint-plugin-template@13.2.1":
+  version "13.2.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@angular-eslint/eslint-plugin-template/-/eslint-plugin-template-13.2.1.tgz?dl=https://registry.yarnpkg.com/@angular-eslint/eslint-plugin-template/-/eslint-plugin-template-13.2.1.tgz#d12846507a0331cbbc81ded45a905186323e5c09"
+  integrity sha1-0ShGUHoDMcu8gd7UWpBRhjI+XAk=
+  dependencies:
+    "@angular-eslint/bundled-angular-compiler" "13.2.1"
+    "@typescript-eslint/experimental-utils" "5.17.0"
+    aria-query "^4.2.2"
+    axobject-query "^2.2.0"
+
+"@angular-eslint/eslint-plugin@13.2.1":
+  version "13.2.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@angular-eslint/eslint-plugin/-/eslint-plugin-13.2.1.tgz?dl=https://registry.yarnpkg.com/@angular-eslint/eslint-plugin/-/eslint-plugin-13.2.1.tgz#9537b07d7a9d9b69a84c89d3c8b4da46792208f0"
+  integrity sha1-lTewfXqdm2moTInTyLTaRnkiCPA=
+  dependencies:
+    "@angular-eslint/utils" "13.2.1"
+    "@typescript-eslint/experimental-utils" "5.17.0"
+
+"@angular-eslint/schematics@^13.2.1":
+  version "13.2.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@angular-eslint/schematics/-/schematics-13.2.1.tgz?dl=https://registry.yarnpkg.com/@angular-eslint/schematics/-/schematics-13.2.1.tgz#20a2ecda4d6a8319aaa58c654abccd31ee0915f4"
+  integrity sha1-IKLs2k1qgxmqpYxlSrzNMe4JFfQ=
+  dependencies:
+    "@angular-eslint/eslint-plugin" "13.2.1"
+    "@angular-eslint/eslint-plugin-template" "13.2.1"
+    ignore "5.2.0"
+    strip-json-comments "3.1.1"
+    tmp "0.2.1"
+
+"@angular-eslint/template-parser@13.2.1":
+  version "13.2.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@angular-eslint/template-parser/-/template-parser-13.2.1.tgz?dl=https://registry.yarnpkg.com/@angular-eslint/template-parser/-/template-parser-13.2.1.tgz#c931b79532b5230c771cd8344e7ddecb6b01512f"
+  integrity sha1-yTG3lTK1Iwx3HNg0Tn3ey2sBUS8=
+  dependencies:
+    "@angular-eslint/bundled-angular-compiler" "13.2.1"
+    eslint-scope "^5.1.0"
+
+"@angular-eslint/utils@13.2.1":
+  version "13.2.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@angular-eslint/utils/-/utils-13.2.1.tgz?dl=https://registry.yarnpkg.com/@angular-eslint/utils/-/utils-13.2.1.tgz#f9cb023abb20ebce7a10e0758752293026b06026"
+  integrity sha1-+csCOrsg6856EOB1h1IpMCawYCY=
+  dependencies:
+    "@angular-eslint/bundled-angular-compiler" "13.2.1"
+    "@typescript-eslint/experimental-utils" "5.17.0"
+
 "@angular/animations@~13.3.0":
   version "13.3.8"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@angular/animations/-/animations-13.3.8.tgz?dl=https://registry.yarnpkg.com/@angular/animations/-/animations-13.3.8.tgz#b81308ec5ba88781e01168c94b4f511a6bc802df"
@@ -246,7 +303,7 @@
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@assemblyscript/loader/-/loader-0.10.1.tgz?dl=https://registry.yarnpkg.com/@assemblyscript/loader/-/loader-0.10.1.tgz#70e45678f06c72fa2e350e8553ec4a4d72b92e06"
   integrity sha1-cORWePBscvouNQ6FU+xKTXK5LgY=
 
-"@babel/code-frame@^7.0.0", "@babel/code-frame@^7.16.7":
+"@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.16.7":
   version "7.16.7"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@babel/code-frame/-/code-frame-7.16.7.tgz?dl=https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.16.7.tgz#44416b6bd7624b998f5b1af5d470856c40138789"
   integrity sha1-REFra9diS5mPWxr11HCFbEATh4k=
@@ -526,7 +583,7 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.14.7", "@babel/parser@^7.16.12", "@babel/parser@^7.16.7", "@babel/parser@^7.17.12":
+"@babel/parser@^7.10.3", "@babel/parser@^7.14.7", "@babel/parser@^7.16.12", "@babel/parser@^7.16.7", "@babel/parser@^7.17.12":
   version "7.17.12"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@babel/parser/-/parser-7.17.12.tgz?dl=https://registry.yarnpkg.com/@babel/parser/-/parser-7.17.12.tgz#36c2ed06944e3691ba82735fc4cf62d12d491a23"
   integrity sha1-NsLtBpRONpG6gnNfxM9i0S1JGiM=
@@ -1145,6 +1202,14 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
+"@babel/runtime-corejs3@^7.10.2":
+  version "7.17.9"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@babel/runtime-corejs3/-/runtime-corejs3-7.17.9.tgz?dl=https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.17.9.tgz#3d02d0161f0fbf3ada8e88159375af97690f4055"
+  integrity sha1-PQLQFh8PvzrajogVk3Wvl2kPQFU=
+  dependencies:
+    core-js-pure "^3.20.2"
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@7.16.7":
   version "7.16.7"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@babel/runtime/-/runtime-7.16.7.tgz?dl=https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.16.7.tgz#03ff99f64106588c9c403c6ecb8c3bafbbdff1fa"
@@ -1152,7 +1217,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.8.4":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.8.4":
   version "7.17.9"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@babel/runtime/-/runtime-7.17.9.tgz?dl=https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.9.tgz#d19fbf802d01a8cb6cf053a64e472d42c434ba72"
   integrity sha1-0Z+/gC0BqMts8FOmTkctQsQ0unI=
@@ -1168,7 +1233,7 @@
     "@babel/parser" "^7.16.7"
     "@babel/types" "^7.16.7"
 
-"@babel/traverse@^7.13.0", "@babel/traverse@^7.16.10", "@babel/traverse@^7.16.7", "@babel/traverse@^7.16.8", "@babel/traverse@^7.17.12", "@babel/traverse@^7.17.9":
+"@babel/traverse@^7.10.3", "@babel/traverse@^7.13.0", "@babel/traverse@^7.16.10", "@babel/traverse@^7.16.7", "@babel/traverse@^7.16.8", "@babel/traverse@^7.17.12", "@babel/traverse@^7.17.9":
   version "7.17.12"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@babel/traverse/-/traverse-7.17.12.tgz?dl=https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.17.12.tgz#011874d2abbca0ccf1adbe38f6f7a4ff1747599c"
   integrity sha1-ARh00qu8oMzxrb449vek/xdHWZw=
@@ -1184,7 +1249,7 @@
     debug "^4.1.0"
     globals "^11.1.0"
 
-"@babel/types@^7.16.0", "@babel/types@^7.16.7", "@babel/types@^7.16.8", "@babel/types@^7.17.0", "@babel/types@^7.17.12", "@babel/types@^7.4.4":
+"@babel/types@^7.10.3", "@babel/types@^7.16.0", "@babel/types@^7.16.7", "@babel/types@^7.16.8", "@babel/types@^7.17.0", "@babel/types@^7.17.12", "@babel/types@^7.4.4":
   version "7.17.12"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@babel/types/-/types-7.17.12.tgz?dl=https://registry.yarnpkg.com/@babel/types/-/types-7.17.12.tgz#1210690a516489c0200f355d87619157fbbd69a0"
   integrity sha1-EhBpClFkicAgDzVdh2GRV/u9aaA=
@@ -1214,10 +1279,39 @@
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@discoveryjs/json-ext/-/json-ext-0.5.6.tgz?dl=https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.6.tgz#d5e0706cf8c6acd8c6032f8d54070af261bbbb2f"
   integrity sha1-1eBwbPjGrNjGAy+NVAcK8mG7uy8=
 
+"@eslint/eslintrc@^1.2.3":
+  version "1.2.3"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@eslint/eslintrc/-/eslintrc-1.2.3.tgz?dl=https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.2.3.tgz#fcaa2bcef39e13d6e9e7f6271f4cc7cae1174886"
+  integrity sha1-/KorzvOeE9bp5/YnH0zHyuEXSIY=
+  dependencies:
+    ajv "^6.12.4"
+    debug "^4.3.2"
+    espree "^9.3.2"
+    globals "^13.9.0"
+    ignore "^5.2.0"
+    import-fresh "^3.2.1"
+    js-yaml "^4.1.0"
+    minimatch "^3.1.2"
+    strip-json-comments "^3.1.1"
+
 "@gar/promisify@^1.0.1", "@gar/promisify@^1.1.3":
   version "1.1.3"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@gar/promisify/-/promisify-1.1.3.tgz?dl=https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.3.tgz#555193ab2e3bb3b6adc3d551c9c030d9e860daf6"
   integrity sha1-VVGTqy47s7atw9VRycAw2ehg2vY=
+
+"@humanwhocodes/config-array@^0.9.2":
+  version "0.9.5"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@humanwhocodes/config-array/-/config-array-0.9.5.tgz?dl=https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.9.5.tgz#2cbaf9a89460da24b5ca6531b8bbfc23e1df50c7"
+  integrity sha1-LLr5qJRg2iS1ymUxuLv8I+HfUMc=
+  dependencies:
+    "@humanwhocodes/object-schema" "^1.2.1"
+    debug "^4.1.1"
+    minimatch "^3.0.4"
+
+"@humanwhocodes/object-schema@^1.2.1":
+  version "1.2.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz?dl=https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
+  integrity sha1-tSBSnsIdjllFoYUd/Rwy6U45/0U=
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
@@ -1274,6 +1368,16 @@
   dependencies:
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
+
+"@ngneat/spectator@^10.0.1":
+  version "10.0.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@ngneat/spectator/-/spectator-10.0.1.tgz?dl=https://registry.yarnpkg.com/@ngneat/spectator/-/spectator-10.0.1.tgz#d1c0e55d909ee6e4af59c6e94027137d600bb4af"
+  integrity sha1-0cDlXZCe5uSvWcbpQCcTfWALtK8=
+  dependencies:
+    "@testing-library/dom" "^8.11.0"
+    jquery "3.6.0"
+    replace-in-file "6.2.0"
+    tslib "^2.1.0"
 
 "@ngrx/effects@^13.2.0":
   version "13.2.0"
@@ -1403,6 +1507,57 @@
     node-gyp "^8.2.0"
     read-package-json-fast "^2.0.1"
 
+"@nrwl/cli@*", "@nrwl/cli@14.1.7":
+  version "14.1.7"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@nrwl/cli/-/cli-14.1.7.tgz?dl=https://registry.yarnpkg.com/@nrwl/cli/-/cli-14.1.7.tgz#bc67b6471510c3335e2b217f3ad68a33f5dc4947"
+  integrity sha1-vGe2RxUQwzNeKyF/OtaKM/XcSUc=
+  dependencies:
+    nx "14.1.7"
+
+"@nrwl/devkit@13.1.3":
+  version "13.1.3"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@nrwl/devkit/-/devkit-13.1.3.tgz?dl=https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-13.1.3.tgz#8b119587984371a4caf0b3601a7481e04bac65a3"
+  integrity sha1-ixGVh5hDcaTK8LNgGnSB4EusZaM=
+  dependencies:
+    "@nrwl/tao" "13.1.3"
+    ejs "^3.1.5"
+    ignore "^5.0.4"
+    rxjs "^6.5.4"
+    semver "7.3.4"
+    tslib "^2.0.0"
+
+"@nrwl/tao@13.1.3":
+  version "13.1.3"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@nrwl/tao/-/tao-13.1.3.tgz?dl=https://registry.yarnpkg.com/@nrwl/tao/-/tao-13.1.3.tgz#5a88029b0aa9dfd4bca0a86d3dde2b608c468b36"
+  integrity sha1-WogCmwqp39S8oKhtPd4rYIxGizY=
+  dependencies:
+    chalk "4.1.0"
+    enquirer "~2.3.6"
+    fs-extra "^9.1.0"
+    jsonc-parser "3.0.0"
+    nx "13.1.3"
+    rxjs "^6.5.4"
+    rxjs-for-await "0.0.2"
+    semver "7.3.4"
+    tmp "~0.2.1"
+    tslib "^2.0.0"
+    yargs-parser "20.0.0"
+
+"@nrwl/tao@14.1.7":
+  version "14.1.7"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@nrwl/tao/-/tao-14.1.7.tgz?dl=https://registry.yarnpkg.com/@nrwl/tao/-/tao-14.1.7.tgz#c589544092f92380bb9f5c51bf60c40603b39c27"
+  integrity sha1-xYlUQJL5I4C7n1xRv2DEBgOznCc=
+  dependencies:
+    nx "14.1.7"
+
+"@parcel/watcher@2.0.4":
+  version "2.0.4"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@parcel/watcher/-/watcher-2.0.4.tgz?dl=https://registry.yarnpkg.com/@parcel/watcher/-/watcher-2.0.4.tgz#f300fef4cc38008ff4b8c29d92588eced3ce014b"
+  integrity sha1-8wD+9Mw4AI/0uMKdkliOztPOAUs=
+  dependencies:
+    node-addon-api "^3.2.1"
+    node-gyp-build "^4.3.0"
+
 "@schematics/angular@13.3.5":
   version "13.3.5"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@schematics/angular/-/angular-13.3.5.tgz?dl=https://registry.yarnpkg.com/@schematics/angular/-/angular-13.3.5.tgz#052e52cd6a58291a5566ddabb75d8c074cfe63b1"
@@ -1411,6 +1566,130 @@
     "@angular-devkit/core" "13.3.5"
     "@angular-devkit/schematics" "13.3.5"
     jsonc-parser "3.0.0"
+
+"@swc-node/core@^1.9.0":
+  version "1.9.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@swc-node/core/-/core-1.9.0.tgz?dl=https://registry.yarnpkg.com/@swc-node/core/-/core-1.9.0.tgz#f5208d575c1aed5a2cab7e4c04e46aca34d8c240"
+  integrity sha1-9SCNV1wa7Vosq35MBORqyjTYwkA=
+  dependencies:
+    "@swc/core" "^1.2.172"
+
+"@swc-node/register@^1.4.2":
+  version "1.5.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@swc-node/register/-/register-1.5.1.tgz?dl=https://registry.yarnpkg.com/@swc-node/register/-/register-1.5.1.tgz#8927783c1a53207ded076d8700270f7941aa0305"
+  integrity sha1-iSd4PBpTIH3tB22HACcPeUGqAwU=
+  dependencies:
+    "@swc-node/core" "^1.9.0"
+    "@swc-node/sourcemap-support" "^0.2.0"
+    colorette "^2.0.16"
+    debug "^4.3.4"
+    pirates "^4.0.5"
+    tslib "^2.4.0"
+
+"@swc-node/sourcemap-support@^0.2.0":
+  version "0.2.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@swc-node/sourcemap-support/-/sourcemap-support-0.2.0.tgz?dl=https://registry.yarnpkg.com/@swc-node/sourcemap-support/-/sourcemap-support-0.2.0.tgz#e9079f739921fbe5c49d85791703fcb1540c356b"
+  integrity sha1-6Qefc5kh++XEnYV5FwP8sVQMNWs=
+  dependencies:
+    source-map-support "^0.5.21"
+
+"@swc/core-android-arm-eabi@1.2.186":
+  version "1.2.186"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@swc/core-android-arm-eabi/-/core-android-arm-eabi-1.2.186.tgz?dl=https://registry.yarnpkg.com/@swc/core-android-arm-eabi/-/core-android-arm-eabi-1.2.186.tgz#542941efac1a481c3794a19014574c5c376ab0a7"
+  integrity sha1-VClB76waSBw3lKGQFFdMXDdqsKc=
+
+"@swc/core-android-arm64@1.2.186":
+  version "1.2.186"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@swc/core-android-arm64/-/core-android-arm64-1.2.186.tgz?dl=https://registry.yarnpkg.com/@swc/core-android-arm64/-/core-android-arm64-1.2.186.tgz#0b4cf17ea869126bfbf0a75dd1b0486bbedfb8a7"
+  integrity sha1-C0zxfqhpEmv78Kdd0bBIa77fuKc=
+
+"@swc/core-darwin-arm64@1.2.186":
+  version "1.2.186"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@swc/core-darwin-arm64/-/core-darwin-arm64-1.2.186.tgz?dl=https://registry.yarnpkg.com/@swc/core-darwin-arm64/-/core-darwin-arm64-1.2.186.tgz#5958e85b156cea9b384cc3b9191ccf9e2aaf5e1b"
+  integrity sha1-WVjoWxVs6ps4TMO5GRzPniqvXhs=
+
+"@swc/core-darwin-x64@1.2.186":
+  version "1.2.186"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@swc/core-darwin-x64/-/core-darwin-x64-1.2.186.tgz?dl=https://registry.yarnpkg.com/@swc/core-darwin-x64/-/core-darwin-x64-1.2.186.tgz#384af1740d262f8eeaf51bb2f4014d32867da071"
+  integrity sha1-OErxdA0mL47q9Ruy9AFNMoZ9oHE=
+
+"@swc/core-freebsd-x64@1.2.186":
+  version "1.2.186"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@swc/core-freebsd-x64/-/core-freebsd-x64-1.2.186.tgz?dl=https://registry.yarnpkg.com/@swc/core-freebsd-x64/-/core-freebsd-x64-1.2.186.tgz#438b3067b0357903875bce5b0ab16e7277d4ab8f"
+  integrity sha1-Q4swZ7A1eQOHW85bCrFucnfUq48=
+
+"@swc/core-linux-arm-gnueabihf@1.2.186":
+  version "1.2.186"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.2.186.tgz?dl=https://registry.yarnpkg.com/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.2.186.tgz#df2e4f0ff8f98ae3fa364a0c7c84988e3b5296fc"
+  integrity sha1-3y5PD/j5iuP6NkoMfISYjjtSlvw=
+
+"@swc/core-linux-arm64-gnu@1.2.186":
+  version "1.2.186"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.2.186.tgz?dl=https://registry.yarnpkg.com/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.2.186.tgz#884b2d781f224744cf7c40cfa70d029f92016f37"
+  integrity sha1-iEsteB8iR0TPfEDPpw0Cn5IBbzc=
+
+"@swc/core-linux-arm64-musl@1.2.186":
+  version "1.2.186"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.2.186.tgz?dl=https://registry.yarnpkg.com/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.2.186.tgz#b76d88778bbe4f5fb72155ef5bb506417d8a7216"
+  integrity sha1-t22Id4u+T1+3IVXvW7UGQX2KchY=
+
+"@swc/core-linux-x64-gnu@1.2.186":
+  version "1.2.186"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.2.186.tgz?dl=https://registry.yarnpkg.com/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.2.186.tgz#38362067f1242ec46aff72386c07c9341b11bc27"
+  integrity sha1-ODYgZ/EkLsRq/3I4bAfJNBsRvCc=
+
+"@swc/core-linux-x64-musl@1.2.186":
+  version "1.2.186"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.2.186.tgz?dl=https://registry.yarnpkg.com/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.2.186.tgz#5b21b8bb3d795b70d0f7959524152600db6d2c49"
+  integrity sha1-WyG4uz15W3DQ95WVJBUmANttLEk=
+
+"@swc/core-win32-arm64-msvc@1.2.186":
+  version "1.2.186"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.2.186.tgz?dl=https://registry.yarnpkg.com/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.2.186.tgz#4892a9660a0b0c467a07192d188a0ef1d86f0a44"
+  integrity sha1-SJKpZgoLDEZ6BxktGIoO8dhvCkQ=
+
+"@swc/core-win32-ia32-msvc@1.2.186":
+  version "1.2.186"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.2.186.tgz?dl=https://registry.yarnpkg.com/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.2.186.tgz#802800e2a76fcbe4671eb8542e06e00c8ae2f3b6"
+  integrity sha1-gCgA4qdvy+RnHrhULgbgDIri87Y=
+
+"@swc/core-win32-x64-msvc@1.2.186":
+  version "1.2.186"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.2.186.tgz?dl=https://registry.yarnpkg.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.2.186.tgz#80a44caaab3d0c88ff5453a8c6543caad75e67ee"
+  integrity sha1-gKRMqqs9DIj/VFOoxlQ8qtdeZ+4=
+
+"@swc/core@^1.2.172", "@swc/core@^1.2.173":
+  version "1.2.186"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@swc/core/-/core-1.2.186.tgz?dl=https://registry.yarnpkg.com/@swc/core/-/core-1.2.186.tgz#4d096f9065e5dd87bb418cece3370ce7f1b5edfa"
+  integrity sha1-TQlvkGXl3Ye7QYzs4zcM5/G17fo=
+  optionalDependencies:
+    "@swc/core-android-arm-eabi" "1.2.186"
+    "@swc/core-android-arm64" "1.2.186"
+    "@swc/core-darwin-arm64" "1.2.186"
+    "@swc/core-darwin-x64" "1.2.186"
+    "@swc/core-freebsd-x64" "1.2.186"
+    "@swc/core-linux-arm-gnueabihf" "1.2.186"
+    "@swc/core-linux-arm64-gnu" "1.2.186"
+    "@swc/core-linux-arm64-musl" "1.2.186"
+    "@swc/core-linux-x64-gnu" "1.2.186"
+    "@swc/core-linux-x64-musl" "1.2.186"
+    "@swc/core-win32-arm64-msvc" "1.2.186"
+    "@swc/core-win32-ia32-msvc" "1.2.186"
+    "@swc/core-win32-x64-msvc" "1.2.186"
+
+"@testing-library/dom@^8.11.0":
+  version "8.13.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@testing-library/dom/-/dom-8.13.0.tgz?dl=https://registry.yarnpkg.com/@testing-library/dom/-/dom-8.13.0.tgz#bc00bdd64c7d8b40841e27a70211399ad3af46f5"
+  integrity sha1-vAC91kx9i0CEHienAhE5mtOvRvU=
+  dependencies:
+    "@babel/code-frame" "^7.10.4"
+    "@babel/runtime" "^7.12.5"
+    "@types/aria-query" "^4.2.0"
+    aria-query "^5.0.0"
+    chalk "^4.1.0"
+    dom-accessibility-api "^0.5.9"
+    lz-string "^1.4.4"
+    pretty-format "^27.0.2"
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -1421,6 +1700,11 @@
   version "2.0.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@tootallnate/once/-/once-2.0.0.tgz?dl=https://registry.yarnpkg.com/@tootallnate/once/-/once-2.0.0.tgz#f544a148d3ab35801c1f633a7441fd87c2e484bf"
   integrity sha1-9UShSNOrNYAcH2M6dEH9h8LkhL8=
+
+"@types/aria-query@^4.2.0":
+  version "4.2.2"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@types/aria-query/-/aria-query-4.2.2.tgz?dl=https://registry.yarnpkg.com/@types/aria-query/-/aria-query-4.2.2.tgz#ed4e0ad92306a704f9fb132a0cfcf77486dbe2bc"
+  integrity sha1-7U4K2SMGpwT5+xMqDPz3dIbb4rw=
 
 "@types/body-parser@*":
   version "1.19.2"
@@ -1475,7 +1759,7 @@
     "@types/eslint" "*"
     "@types/estree" "*"
 
-"@types/eslint@*":
+"@types/eslint@*", "@types/eslint@^8.4.2":
   version "8.4.2"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@types/eslint/-/eslint-8.4.2.tgz?dl=https://registry.yarnpkg.com/@types/eslint/-/eslint-8.4.2.tgz#48f2ac58ab9c631cb68845c3d956b28f79fad575"
   integrity sha1-SPKsWKucYxy2iEXD2Vayj3n61XU=
@@ -1524,6 +1808,11 @@
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@types/json-schema/-/json-schema-7.0.11.tgz?dl=https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.11.tgz#d421b6c527a3037f7c84433fd2c4229e016863d3"
   integrity sha1-1CG2xSejA398hEM/0sQingFoY9M=
 
+"@types/json5@^0.0.29":
+  version "0.0.29"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@types/json5/-/json5-0.0.29.tgz?dl=https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
+  integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
+
 "@types/mime@^1":
   version "1.3.2"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@types/mime/-/mime-1.3.2.tgz?dl=https://registry.yarnpkg.com/@types/mime/-/mime-1.3.2.tgz#93e25bf9ee75fe0fd80b594bc4feb0e862111b5a"
@@ -1543,6 +1832,11 @@
   version "4.0.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@types/parse-json/-/parse-json-4.0.0.tgz?dl=https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha1-L4u0QUNNFjs1+4/9zNcTiSf/uMA=
+
+"@types/prettier@^2.6.0":
+  version "2.6.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@types/prettier/-/prettier-2.6.1.tgz?dl=https://registry.yarnpkg.com/@types/prettier/-/prettier-2.6.1.tgz#76e72d8a775eef7ce649c63c8acae1a0824bbaed"
+  integrity sha1-ductinde73zmScY8isrhoIJLuu0=
 
 "@types/qs@*":
   version "6.9.7"
@@ -1587,6 +1881,137 @@
   integrity sha1-fSWh/77NPE8tNQaNCyg8A3ADJ00=
   dependencies:
     "@types/node" "*"
+
+"@typescript-eslint/eslint-plugin@5.17.0":
+  version "5.17.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.17.0.tgz?dl=https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.17.0.tgz#704eb4e75039000531255672bf1c85ee85cf1d67"
+  integrity sha1-cE6051A5AAUxJVZyvxyF7oXPHWc=
+  dependencies:
+    "@typescript-eslint/scope-manager" "5.17.0"
+    "@typescript-eslint/type-utils" "5.17.0"
+    "@typescript-eslint/utils" "5.17.0"
+    debug "^4.3.2"
+    functional-red-black-tree "^1.0.1"
+    ignore "^5.1.8"
+    regexpp "^3.2.0"
+    semver "^7.3.5"
+    tsutils "^3.21.0"
+
+"@typescript-eslint/experimental-utils@5.17.0":
+  version "5.17.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@typescript-eslint/experimental-utils/-/experimental-utils-5.17.0.tgz?dl=https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-5.17.0.tgz#303ba1d766d715c3225a31845b54941889e52f6c"
+  integrity sha1-MDuh12bXFcMiWjGEW1SUGInlL2w=
+  dependencies:
+    "@typescript-eslint/utils" "5.17.0"
+
+"@typescript-eslint/parser@5.17.0":
+  version "5.17.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@typescript-eslint/parser/-/parser-5.17.0.tgz?dl=https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.17.0.tgz#7def77d5bcd8458d12d52909118cf3f0a45f89d5"
+  integrity sha1-fe931bzYRY0S1SkJEYzz8KRfidU=
+  dependencies:
+    "@typescript-eslint/scope-manager" "5.17.0"
+    "@typescript-eslint/types" "5.17.0"
+    "@typescript-eslint/typescript-estree" "5.17.0"
+    debug "^4.3.2"
+
+"@typescript-eslint/parser@^5.10.0":
+  version "5.25.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@typescript-eslint/parser/-/parser-5.25.0.tgz?dl=https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.25.0.tgz#fb533487147b4b9efd999a4d2da0b6c263b64f7f"
+  integrity sha1-+1M0hxR7S579mZpNLaC2wmO2T38=
+  dependencies:
+    "@typescript-eslint/scope-manager" "5.25.0"
+    "@typescript-eslint/types" "5.25.0"
+    "@typescript-eslint/typescript-estree" "5.25.0"
+    debug "^4.3.4"
+
+"@typescript-eslint/scope-manager@5.17.0":
+  version "5.17.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@typescript-eslint/scope-manager/-/scope-manager-5.17.0.tgz?dl=https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-5.17.0.tgz#4cea7d0e0bc0e79eb60cad431c89120987c3f952"
+  integrity sha1-TOp9DgvA5562DK1DHIkSCYfD+VI=
+  dependencies:
+    "@typescript-eslint/types" "5.17.0"
+    "@typescript-eslint/visitor-keys" "5.17.0"
+
+"@typescript-eslint/scope-manager@5.25.0":
+  version "5.25.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@typescript-eslint/scope-manager/-/scope-manager-5.25.0.tgz?dl=https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-5.25.0.tgz#e78f1484bca7e484c48782075219c82c6b77a09f"
+  integrity sha1-548UhLyn5ITEh4IHUhnILGt3oJ8=
+  dependencies:
+    "@typescript-eslint/types" "5.25.0"
+    "@typescript-eslint/visitor-keys" "5.25.0"
+
+"@typescript-eslint/type-utils@5.17.0":
+  version "5.17.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@typescript-eslint/type-utils/-/type-utils-5.17.0.tgz?dl=https://registry.yarnpkg.com/@typescript-eslint/type-utils/-/type-utils-5.17.0.tgz#1c4549d68c89877662224aabb29fbbebf5fc9672"
+  integrity sha1-HEVJ1oyJh3ZiIkqrsp+76/X8lnI=
+  dependencies:
+    "@typescript-eslint/utils" "5.17.0"
+    debug "^4.3.2"
+    tsutils "^3.21.0"
+
+"@typescript-eslint/types@5.17.0":
+  version "5.17.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@typescript-eslint/types/-/types-5.17.0.tgz?dl=https://registry.yarnpkg.com/@typescript-eslint/types/-/types-5.17.0.tgz#861ec9e669ffa2aa9b873dd4d28d9b1ce26d216f"
+  integrity sha1-hh7J5mn/oqqbhz3U0o2bHOJtIW8=
+
+"@typescript-eslint/types@5.25.0":
+  version "5.25.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@typescript-eslint/types/-/types-5.25.0.tgz?dl=https://registry.yarnpkg.com/@typescript-eslint/types/-/types-5.25.0.tgz#dee51b1855788b24a2eceeae54e4adb89b088dd8"
+  integrity sha1-3uUbGFV4iySi7O6uVOStuJsIjdg=
+
+"@typescript-eslint/typescript-estree@5.17.0":
+  version "5.17.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@typescript-eslint/typescript-estree/-/typescript-estree-5.17.0.tgz?dl=https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-5.17.0.tgz#a7cba7dfc8f9cc2ac78c18584e684507df4f2488"
+  integrity sha1-p8un38j5zCrHjBhYTmhFB99PJIg=
+  dependencies:
+    "@typescript-eslint/types" "5.17.0"
+    "@typescript-eslint/visitor-keys" "5.17.0"
+    debug "^4.3.2"
+    globby "^11.0.4"
+    is-glob "^4.0.3"
+    semver "^7.3.5"
+    tsutils "^3.21.0"
+
+"@typescript-eslint/typescript-estree@5.25.0":
+  version "5.25.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@typescript-eslint/typescript-estree/-/typescript-estree-5.25.0.tgz?dl=https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-5.25.0.tgz#a7ab40d32eb944e3fb5b4e3646e81b1bcdd63e00"
+  integrity sha1-p6tA0y65ROP7W042RugbG83WPgA=
+  dependencies:
+    "@typescript-eslint/types" "5.25.0"
+    "@typescript-eslint/visitor-keys" "5.25.0"
+    debug "^4.3.4"
+    globby "^11.1.0"
+    is-glob "^4.0.3"
+    semver "^7.3.7"
+    tsutils "^3.21.0"
+
+"@typescript-eslint/utils@5.17.0":
+  version "5.17.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@typescript-eslint/utils/-/utils-5.17.0.tgz?dl=https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.17.0.tgz#549a9e1d491c6ccd3624bc3c1b098f5cfb45f306"
+  integrity sha1-VJqeHUkcbM02JLw8GwmPXPtF8wY=
+  dependencies:
+    "@types/json-schema" "^7.0.9"
+    "@typescript-eslint/scope-manager" "5.17.0"
+    "@typescript-eslint/types" "5.17.0"
+    "@typescript-eslint/typescript-estree" "5.17.0"
+    eslint-scope "^5.1.1"
+    eslint-utils "^3.0.0"
+
+"@typescript-eslint/visitor-keys@5.17.0":
+  version "5.17.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@typescript-eslint/visitor-keys/-/visitor-keys-5.17.0.tgz?dl=https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-5.17.0.tgz#52daae45c61b0211b4c81b53a71841911e479128"
+  integrity sha1-UtquRcYbAhG0yBtTpxhBkR5HkSg=
+  dependencies:
+    "@typescript-eslint/types" "5.17.0"
+    eslint-visitor-keys "^3.0.0"
+
+"@typescript-eslint/visitor-keys@5.25.0":
+  version "5.25.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/@typescript-eslint/visitor-keys/-/visitor-keys-5.25.0.tgz?dl=https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-5.25.0.tgz#33aa5fdcc5cedb9f4c8828c6a019d58548d4474b"
+  integrity sha1-M6pf3MXO259MiCjGoBnVhUjUR0s=
+  dependencies:
+    "@typescript-eslint/types" "5.25.0"
+    eslint-visitor-keys "^3.3.0"
 
 "@webassemblyjs/ast@1.11.1":
   version "1.11.1"
@@ -1747,7 +2172,12 @@ acorn-import-assertions@^1.7.6:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/acorn-import-assertions/-/acorn-import-assertions-1.8.0.tgz?dl=https://registry.yarnpkg.com/acorn-import-assertions/-/acorn-import-assertions-1.8.0.tgz#ba2b5939ce62c238db6d93d81c9b111b29b855e9"
   integrity sha1-uitZOc5iwjjbbZPYHJsRGym4Vek=
 
-acorn@^8.4.1, acorn@^8.5.0:
+acorn-jsx@^5.3.2:
+  version "5.3.2"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/acorn-jsx/-/acorn-jsx-5.3.2.tgz?dl=https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"
+  integrity sha1-ftW7VZCLOy8bxVxq8WU7rafweTc=
+
+acorn@^8.4.1, acorn@^8.5.0, acorn@^8.7.1:
   version "8.7.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/acorn/-/acorn-8.7.1.tgz?dl=https://registry.yarnpkg.com/acorn/-/acorn-8.7.1.tgz#0197122c843d1bf6d0a5e83220a788f278f63c30"
   integrity sha1-AZcSLIQ9G/bQpegyIKeI8nj2PDA=
@@ -1813,7 +2243,7 @@ ajv@8.9.0:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-ajv@^6.12.4, ajv@^6.12.5:
+ajv@^6.10.0, ajv@^6.12.4, ajv@^6.12.5:
   version "6.12.6"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/ajv/-/ajv-6.12.6.tgz?dl=https://registry.yarnpkg.com/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"
   integrity sha1-uvWmLoArB9l3A0WG+MO69a3ybfQ=
@@ -1838,6 +2268,11 @@ ansi-colors@4.1.1:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/ansi-colors/-/ansi-colors-4.1.1.tgz?dl=https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-4.1.1.tgz#cbb9ae256bf750af1eab344f229aa27fe94ba348"
   integrity sha1-y7muJWv3UK8eqzRPIpqif+lLo0g=
 
+ansi-colors@^4.1.1:
+  version "4.1.3"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/ansi-colors/-/ansi-colors-4.1.3.tgz?dl=https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-4.1.3.tgz#37611340eb2243e70cc604cad35d63270d48781b"
+  integrity sha1-N2ETQOsiQ+cMxgTK011jJw1IeBs=
+
 ansi-escapes@^4.2.1:
   version "4.3.2"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/ansi-escapes/-/ansi-escapes-4.3.2.tgz?dl=https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-4.3.2.tgz#6b2291d1db7d98b6521d5f1efa42d0f3a9feb65e"
@@ -1850,6 +2285,16 @@ ansi-html-community@^0.0.8:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/ansi-html-community/-/ansi-html-community-0.0.8.tgz?dl=https://registry.yarnpkg.com/ansi-html-community/-/ansi-html-community-0.0.8.tgz#69fbc4d6ccbe383f9736934ae34c3f8290f1bf41"
   integrity sha1-afvE1sy+OD+XNpNK40w/gpDxv0E=
 
+ansi-regex@^2.0.0:
+  version "2.1.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/ansi-regex/-/ansi-regex-2.1.1.tgz?dl=https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-2.1.1.tgz#c3b33ab5ee360d86e0e628f0468ae7ef27d654df"
+  integrity sha1-w7M6te42DYbg5ijwRorn7yfWVN8=
+
+ansi-regex@^3.0.0:
+  version "3.0.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/ansi-regex/-/ansi-regex-3.0.1.tgz?dl=https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-3.0.1.tgz#123d6479e92ad45ad897d4054e3c7ca7db4944e1"
+  integrity sha1-Ej1keekq1FrYl9QFTjx8p9tJROE=
+
 ansi-regex@^5.0.1:
   version "5.0.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/ansi-regex/-/ansi-regex-5.0.1.tgz?dl=https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-5.0.1.tgz#082cb2c89c9fe8659a311a53bd6a4dc5301db304"
@@ -1860,7 +2305,12 @@ ansi-regex@^6.0.1:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/ansi-regex/-/ansi-regex-6.0.1.tgz?dl=https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-6.0.1.tgz#3183e38fae9a65d7cb5e53945cd5897d0260a06a"
   integrity sha1-MYPjj66aZdfLXlOUXNWJfQJgoGo=
 
-ansi-styles@^3.2.1:
+ansi-styles@^2.2.1:
+  version "2.2.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/ansi-styles/-/ansi-styles-2.2.1.tgz?dl=https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
+  integrity sha1-tDLdM1i2NM914eRmQ2gkBTPB3b4=
+
+ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/ansi-styles/-/ansi-styles-3.2.1.tgz?dl=https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
   integrity sha1-QfuyAkPlCxK+DwS43tvwdSDOhB0=
@@ -1873,6 +2323,11 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   integrity sha1-7dgDYornHATIWuegkG7a00tkiTc=
   dependencies:
     color-convert "^2.0.1"
+
+ansi-styles@^5.0.0:
+  version "5.2.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/ansi-styles/-/ansi-styles-5.2.0.tgz?dl=https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-5.2.0.tgz#07449690ad45777d1924ac2abb2fc8895dba836b"
+  integrity sha1-B0SWkK1Fd30ZJKwquy/IiV26g2s=
 
 anymatch@~3.1.2:
   version "3.1.2"
@@ -1902,6 +2357,24 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
+argparse@^2.0.1:
+  version "2.0.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/argparse/-/argparse-2.0.1.tgz?dl=https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
+  integrity sha1-JG9Q88p4oyQPbJl+ipvR6sSeSzg=
+
+aria-query@^4.2.2:
+  version "4.2.2"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/aria-query/-/aria-query-4.2.2.tgz?dl=https://registry.yarnpkg.com/aria-query/-/aria-query-4.2.2.tgz#0d2ca6c9aceb56b8977e9fed6aed7e15bbd2f83b"
+  integrity sha1-DSymyazrVriXfp/tau1+FbvS+Ds=
+  dependencies:
+    "@babel/runtime" "^7.10.2"
+    "@babel/runtime-corejs3" "^7.10.2"
+
+aria-query@^5.0.0:
+  version "5.0.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/aria-query/-/aria-query-5.0.0.tgz?dl=https://registry.yarnpkg.com/aria-query/-/aria-query-5.0.0.tgz#210c21aaf469613ee8c9a62c7f86525e058db52c"
+  integrity sha1-IQwhqvRpYT7oyaYsf4ZSXgWNtSw=
+
 array-flatten@1.1.1:
   version "1.1.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/array-flatten/-/array-flatten-1.1.1.tgz?dl=https://registry.yarnpkg.com/array-flatten/-/array-flatten-1.1.1.tgz#9a5f699051b1e7073328f2a008968b64ea2955d2"
@@ -1929,6 +2402,16 @@ async@^2.6.2:
   dependencies:
     lodash "^4.17.14"
 
+async@^3.2.3:
+  version "3.2.3"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/async/-/async-3.2.3.tgz?dl=https://registry.yarnpkg.com/async/-/async-3.2.3.tgz#ac53dafd3f4720ee9e8a160628f18ea91df196c9"
+  integrity sha1-rFPa/T9HIO6eihYGKPGOqR3xlsk=
+
+at-least-node@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/at-least-node/-/at-least-node-1.0.0.tgz?dl=https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
+  integrity sha1-YCzUtG6EStTv/JKoARo8RuAjjcI=
+
 atob@^2.1.2:
   version "2.1.2"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/atob/-/atob-2.1.2.tgz?dl=https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
@@ -1945,6 +2428,11 @@ autoprefixer@^10.4.2:
     normalize-range "^0.1.2"
     picocolors "^1.0.0"
     postcss-value-parser "^4.2.0"
+
+axobject-query@^2.2.0:
+  version "2.2.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/axobject-query/-/axobject-query-2.2.0.tgz?dl=https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.2.0.tgz#943d47e10c0b704aa42275e20edf3722648989be"
+  integrity sha1-lD1H4QwLcEqkInXiDt83ImSJib4=
 
 babel-loader@8.2.3:
   version "8.2.3"
@@ -2018,6 +2506,15 @@ batch@0.6.1:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/batch/-/batch-0.6.1.tgz?dl=https://registry.yarnpkg.com/batch/-/batch-0.6.1.tgz#dc34314f4e679318093fc760272525f94bf25c16"
   integrity sha1-3DQxT05nkxgJP8dgJyUl+UvyXBY=
 
+bent@~7.3.6:
+  version "7.3.12"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/bent/-/bent-7.3.12.tgz?dl=https://registry.yarnpkg.com/bent/-/bent-7.3.12.tgz#e0a2775d4425e7674c64b78b242af4f49da6b035"
+  integrity sha1-4KJ3XUQl52dMZLeLJCr09J2msDU=
+  dependencies:
+    bytesish "^0.4.1"
+    caseless "~0.12.0"
+    is-stream "^2.0.0"
+
 big.js@^5.2.2:
   version "5.2.2"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/big.js/-/big.js-5.2.2.tgz?dl=https://registry.yarnpkg.com/big.js/-/big.js-5.2.2.tgz#65f0af382f578bcdc742bd9c281e9cb2d7768328"
@@ -2028,7 +2525,7 @@ binary-extensions@^2.0.0:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/binary-extensions/-/binary-extensions-2.2.0.tgz?dl=https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha1-dfUC7q+f/eQvyYgpZFvk6na9ni0=
 
-bl@^4.1.0:
+bl@^4.0.3, bl@^4.1.0:
   version "4.1.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/bl/-/bl-4.1.0.tgz?dl=https://registry.yarnpkg.com/bl/-/bl-4.1.0.tgz#451535264182bec2fbbc83a62ab98cf11d9f7b3a"
   integrity sha1-RRU1JkGCvsL7vIOmKrmM8R2fezo=
@@ -2138,6 +2635,11 @@ bytes@3.1.2:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/bytes/-/bytes-3.1.2.tgz?dl=https://registry.yarnpkg.com/bytes/-/bytes-3.1.2.tgz#8b0beeb98605adf1b128fa4386403c009e0221a5"
   integrity sha1-iwvuuYYFrfGxKPpDhkA8AJ4CIaU=
 
+bytesish@^0.4.1:
+  version "0.4.4"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/bytesish/-/bytesish-0.4.4.tgz?dl=https://registry.yarnpkg.com/bytesish/-/bytesish-0.4.4.tgz#f3b535a0f1153747427aee27256748cff92347e6"
+  integrity sha1-87U1oPEVN0dCeu4nJWdIz/kjR+Y=
+
 cacache@15.3.0, cacache@^15.0.5, cacache@^15.2.0:
   version "15.3.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/cacache/-/cacache-15.3.0.tgz?dl=https://registry.yarnpkg.com/cacache/-/cacache-15.3.0.tgz#dc85380fb2f556fe3dda4c719bfa0ec875a7f1eb"
@@ -2209,6 +2711,30 @@ caniuse-lite@^1.0.30001299, caniuse-lite@^1.0.30001332, caniuse-lite@^1.0.300013
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/caniuse-lite/-/caniuse-lite-1.0.30001341.tgz?dl=https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001341.tgz#59590c8ffa8b5939cf4161f00827b8873ad72498"
   integrity sha1-WVkMj/qLWTnPQWHwCCe4hzrXJJg=
 
+caseless@~0.12.0:
+  version "0.12.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/caseless/-/caseless-0.12.0.tgz?dl=https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
+  integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
+
+chalk@4.1.0:
+  version "4.1.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/chalk/-/chalk-4.1.0.tgz?dl=https://registry.yarnpkg.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
+  integrity sha1-ThSHCmGNni7dl92DRf2dncMVZGo=
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
+chalk@^1.1.3:
+  version "1.1.3"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/chalk/-/chalk-1.1.3.tgz?dl=https://registry.yarnpkg.com/chalk/-/chalk-1.1.3.tgz#a8115c55e4a702fe4d150abd3872822a7e09fc98"
+  integrity sha1-qBFcVeSnAv5NFQq9OHKCKn4J/Jg=
+  dependencies:
+    ansi-styles "^2.2.1"
+    escape-string-regexp "^1.0.2"
+    has-ansi "^2.0.0"
+    strip-ansi "^3.0.0"
+    supports-color "^2.0.0"
+
 chalk@^2.0.0:
   version "2.4.2"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/chalk/-/chalk-2.4.2.tgz?dl=https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
@@ -2218,7 +2744,7 @@ chalk@^2.0.0:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.1.0, chalk@^4.1.1:
+chalk@^4.0.0, chalk@^4.0.2, chalk@^4.1.0, chalk@^4.1.1, chalk@~4.1.0:
   version "4.1.2"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/chalk/-/chalk-4.1.2.tgz?dl=https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
   integrity sha1-qsTit3NKdAhnrrFr8CqtVWoeegE=
@@ -2266,14 +2792,14 @@ clean-stack@^2.0.0:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/clean-stack/-/clean-stack-2.2.0.tgz?dl=https://registry.yarnpkg.com/clean-stack/-/clean-stack-2.2.0.tgz#ee8472dbb129e727b31e8a10a427dee9dfe4008b"
   integrity sha1-7oRy27Ep5yezHooQpCfe6d/kAIs=
 
-cli-cursor@^3.1.0:
+cli-cursor@3.1.0, cli-cursor@^3.1.0:
   version "3.1.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/cli-cursor/-/cli-cursor-3.1.0.tgz?dl=https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-3.1.0.tgz#264305a7ae490d1d03bf0c9ba7c925d1753af307"
   integrity sha1-JkMFp65JDR0Dvwybp8kl0XU68wc=
   dependencies:
     restore-cursor "^3.1.0"
 
-cli-spinners@^2.5.0:
+cli-spinners@2.6.1, cli-spinners@^2.5.0:
   version "2.6.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/cli-spinners/-/cli-spinners-2.6.1.tgz?dl=https://registry.yarnpkg.com/cli-spinners/-/cli-spinners-2.6.1.tgz#adc954ebe281c37a6319bfa401e6dd2488ffb70d"
   integrity sha1-rclU6+KBw3pjGb+kAebdJIj/tw0=
@@ -2335,7 +2861,7 @@ color-support@^1.1.3:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/color-support/-/color-support-1.1.3.tgz?dl=https://registry.yarnpkg.com/color-support/-/color-support-1.1.3.tgz#93834379a1cc9a0c61f82f52f0d04322251bd5a2"
   integrity sha1-k4NDeaHMmgxh+C9S8NBDIiUb1aI=
 
-colorette@^2.0.10:
+colorette@^2.0.10, colorette@^2.0.16:
   version "2.0.16"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/colorette/-/colorette-2.0.16.tgz?dl=https://registry.yarnpkg.com/colorette/-/colorette-2.0.16.tgz#713b9af84fdb000139f04546bd4a93f62a5085da"
   integrity sha1-cTua+E/bAAE58EVGvUqT9ipQhdo=
@@ -2344,6 +2870,11 @@ commander@^2.20.0:
   version "2.20.3"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/commander/-/commander-2.20.3.tgz?dl=https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=
+
+common-tags@^1.4.0:
+  version "1.8.2"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/common-tags/-/common-tags-1.8.2.tgz?dl=https://registry.yarnpkg.com/common-tags/-/common-tags-1.8.2.tgz#94ebb3c076d26032745fd54face7f688ef5ac9c6"
+  integrity sha1-lOuzwHbSYDJ0X9VPrOf2iO9aycY=
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -2461,6 +2992,11 @@ core-js-compat@^3.20.2, core-js-compat@^3.21.0:
     browserslist "^4.20.3"
     semver "7.0.0"
 
+core-js-pure@^3.20.2:
+  version "3.22.5"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/core-js-pure/-/core-js-pure-3.22.5.tgz?dl=https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.22.5.tgz#bdee0ed2f9b78f2862cda4338a07b13a49b6c9a9"
+  integrity sha1-ve4O0vm3jyhizaQzigexOkm2yak=
+
 core-js@3.20.3:
   version "3.20.3"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/core-js/-/core-js-3.20.3.tgz?dl=https://registry.yarnpkg.com/core-js/-/core-js-3.20.3.tgz#c710d0a676e684522f3db4ee84e5e18a9d11d69a"
@@ -2502,7 +3038,7 @@ critters@0.0.16:
     postcss "^8.3.7"
     pretty-bytes "^5.3.0"
 
-cross-spawn@^7.0.3:
+cross-spawn@^7.0.2, cross-spawn@^7.0.3:
   version "7.0.3"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/cross-spawn/-/cross-spawn-7.0.3.tgz?dl=https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
   integrity sha1-9zqFudXUHQRVUcF34ogtSshXKKY=
@@ -2634,6 +3170,11 @@ deep-equal@^1.0.1:
     object-keys "^1.1.1"
     regexp.prototype.flags "^1.2.0"
 
+deep-is@^0.1.3:
+  version "0.1.4"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/deep-is/-/deep-is-0.1.4.tgz?dl=https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.4.tgz#a6f2dce612fadd2ef1f519b73551f17e85199831"
+  integrity sha1-pvLc5hL63S7x9Rm3NVHxfoUZmDE=
+
 default-gateway@^6.0.3:
   version "6.0.3"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/default-gateway/-/default-gateway-6.0.3.tgz?dl=https://registry.yarnpkg.com/default-gateway/-/default-gateway-6.0.3.tgz#819494c888053bdb743edbf343d6cdf7f2943a71"
@@ -2717,6 +3258,11 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
+dlv@^1.1.0:
+  version "1.1.3"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/dlv/-/dlv-1.1.3.tgz?dl=https://registry.yarnpkg.com/dlv/-/dlv-1.1.3.tgz#5c198a8a11453596e751494d49874bc7732f2e79"
+  integrity sha1-XBmKihFFNZbnUUlNSYdLx3MvLnk=
+
 dns-equal@^1.0.0:
   version "1.0.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/dns-equal/-/dns-equal-1.0.0.tgz?dl=https://registry.yarnpkg.com/dns-equal/-/dns-equal-1.0.0.tgz#b39e7f1da6eb0a75ba9c17324b34753c47e0654d"
@@ -2736,6 +3282,18 @@ dns-txt@^2.0.2:
   integrity sha1-uR2Ab10nGI5Ks+fRB9iBocxGQrY=
   dependencies:
     buffer-indexof "^1.0.0"
+
+doctrine@^3.0.0:
+  version "3.0.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/doctrine/-/doctrine-3.0.0.tgz?dl=https://registry.yarnpkg.com/doctrine/-/doctrine-3.0.0.tgz#addebead72a6574db783639dc87a121773973961"
+  integrity sha1-rd6+rXKmV023g2OdyHoSF3OXOWE=
+  dependencies:
+    esutils "^2.0.2"
+
+dom-accessibility-api@^0.5.9:
+  version "0.5.14"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/dom-accessibility-api/-/dom-accessibility-api-0.5.14.tgz?dl=https://registry.yarnpkg.com/dom-accessibility-api/-/dom-accessibility-api-0.5.14.tgz#56082f71b1dc7aac69d83c4285eef39c15d93f56"
+  integrity sha1-VggvcbHceqxp2DxChe7znBXZP1Y=
 
 dom-serialize@^2.2.1:
   version "2.2.1"
@@ -2777,10 +3335,22 @@ domutils@^2.8.0:
     domelementtype "^2.2.0"
     domhandler "^4.2.0"
 
+dotenv@~10.0.0:
+  version "10.0.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/dotenv/-/dotenv-10.0.0.tgz?dl=https://registry.yarnpkg.com/dotenv/-/dotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
+  integrity sha1-PUInuPuV+BCWzdK2ZlP7LHCFuoE=
+
 ee-first@1.1.1:
   version "1.1.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/ee-first/-/ee-first-1.1.1.tgz?dl=https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
+
+ejs@^3.1.5:
+  version "3.1.8"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/ejs/-/ejs-3.1.8.tgz?dl=https://registry.yarnpkg.com/ejs/-/ejs-3.1.8.tgz#758d32910c78047585c7ef1f92f9ee041c1c190b"
+  integrity sha1-dY0ykQx4BHWFx+8fkvnuBBwcGQs=
+  dependencies:
+    jake "^10.8.5"
 
 electron-to-chromium@^1.4.118:
   version "1.4.137"
@@ -2808,6 +3378,13 @@ encoding@^0.1.12, encoding@^0.1.13:
   integrity sha1-VldK/deR9UqOmyeFwFgqLSYhD6k=
   dependencies:
     iconv-lite "^0.6.2"
+
+end-of-stream@^1.4.1:
+  version "1.4.4"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/end-of-stream/-/end-of-stream-1.4.4.tgz?dl=https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
+  integrity sha1-WuZKX0UFe682JuwU2gyl5LJDHrA=
+  dependencies:
+    once "^1.4.0"
 
 engine.io-parser@~5.0.3:
   version "5.0.4"
@@ -2837,6 +3414,13 @@ enhanced-resolve@^5.9.2:
   dependencies:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
+
+enquirer@~2.3.6:
+  version "2.3.6"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/enquirer/-/enquirer-2.3.6.tgz?dl=https://registry.yarnpkg.com/enquirer/-/enquirer-2.3.6.tgz#2a7fe5dd634a1e4125a975ec994ff5456dc3734d"
+  integrity sha1-Kn/l3WNKHkElqXXsmU/1RW3Dc00=
+  dependencies:
+    ansi-colors "^4.1.1"
 
 ent@~2.2.0:
   version "2.2.0"
@@ -3012,12 +3596,29 @@ escape-html@~1.0.3:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/escape-html/-/escape-html-1.0.3.tgz?dl=https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
   integrity sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
 
-escape-string-regexp@^1.0.5:
+escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz?dl=https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-scope@5.1.1:
+escape-string-regexp@^4.0.0:
+  version "4.0.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz?dl=https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
+  integrity sha1-FLqDpdNz49MR5a/KKc9b+tllvzQ=
+
+eslint-config-prettier@^8.5.0:
+  version "8.5.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz?dl=https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz#5a81680ec934beca02c7b1a61cf8ca34b66feab1"
+  integrity sha1-WoFoDsk0vsoCx7GmHPjKNLZv6rE=
+
+eslint-plugin-prettier@^4.0.0:
+  version "4.0.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/eslint-plugin-prettier/-/eslint-plugin-prettier-4.0.0.tgz?dl=https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-4.0.0.tgz#8b99d1e4b8b24a762472b4567992023619cb98e0"
+  integrity sha1-i5nR5LiySnYkcrRWeZICNhnLmOA=
+  dependencies:
+    prettier-linter-helpers "^1.0.0"
+
+eslint-scope@5.1.1, eslint-scope@^5.1.0, eslint-scope@^5.1.1:
   version "5.1.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/eslint-scope/-/eslint-scope-5.1.1.tgz?dl=https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-5.1.1.tgz#e786e59a66cb92b3f6c1fb0d508aab174848f48c"
   integrity sha1-54blmmbLkrP2wfsNUIqrF0hI9Iw=
@@ -3025,10 +3626,92 @@ eslint-scope@5.1.1:
     esrecurse "^4.3.0"
     estraverse "^4.1.1"
 
+eslint-scope@^7.0.0, eslint-scope@^7.1.1:
+  version "7.1.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/eslint-scope/-/eslint-scope-7.1.1.tgz?dl=https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-7.1.1.tgz#fff34894c2f65e5226d3041ac480b4513a163642"
+  integrity sha1-//NIlML2XlIm0wQaxIC0UToWNkI=
+  dependencies:
+    esrecurse "^4.3.0"
+    estraverse "^5.2.0"
+
+eslint-utils@^3.0.0:
+  version "3.0.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/eslint-utils/-/eslint-utils-3.0.0.tgz?dl=https://registry.yarnpkg.com/eslint-utils/-/eslint-utils-3.0.0.tgz#8aebaface7345bb33559db0a1f13a1d2d48c3672"
+  integrity sha1-iuuvrOc0W7M1WdsKHxOh0tSMNnI=
+  dependencies:
+    eslint-visitor-keys "^2.0.0"
+
+eslint-visitor-keys@^2.0.0:
+  version "2.1.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/eslint-visitor-keys/-/eslint-visitor-keys-2.1.0.tgz?dl=https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.1.0.tgz#f65328259305927392c938ed44eb0a5c9b2bd303"
+  integrity sha1-9lMoJZMFknOSyTjtROsKXJsr0wM=
+
+eslint-visitor-keys@^3.0.0, eslint-visitor-keys@^3.1.0, eslint-visitor-keys@^3.3.0:
+  version "3.3.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz?dl=https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz#f6480fa6b1f30efe2d1968aa8ac745b862469826"
+  integrity sha1-9kgPprHzDv4tGWiqisdFuGJGmCY=
+
+eslint@^8.12.0, eslint@^8.7.0:
+  version "8.15.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/eslint/-/eslint-8.15.0.tgz?dl=https://registry.yarnpkg.com/eslint/-/eslint-8.15.0.tgz#fea1d55a7062da48d82600d2e0974c55612a11e9"
+  integrity sha1-/qHVWnBi2kjYJgDS4JdMVWEqEek=
+  dependencies:
+    "@eslint/eslintrc" "^1.2.3"
+    "@humanwhocodes/config-array" "^0.9.2"
+    ajv "^6.10.0"
+    chalk "^4.0.0"
+    cross-spawn "^7.0.2"
+    debug "^4.3.2"
+    doctrine "^3.0.0"
+    escape-string-regexp "^4.0.0"
+    eslint-scope "^7.1.1"
+    eslint-utils "^3.0.0"
+    eslint-visitor-keys "^3.3.0"
+    espree "^9.3.2"
+    esquery "^1.4.0"
+    esutils "^2.0.2"
+    fast-deep-equal "^3.1.3"
+    file-entry-cache "^6.0.1"
+    functional-red-black-tree "^1.0.1"
+    glob-parent "^6.0.1"
+    globals "^13.6.0"
+    ignore "^5.2.0"
+    import-fresh "^3.0.0"
+    imurmurhash "^0.1.4"
+    is-glob "^4.0.0"
+    js-yaml "^4.1.0"
+    json-stable-stringify-without-jsonify "^1.0.1"
+    levn "^0.4.1"
+    lodash.merge "^4.6.2"
+    minimatch "^3.1.2"
+    natural-compare "^1.4.0"
+    optionator "^0.9.1"
+    regexpp "^3.2.0"
+    strip-ansi "^6.0.1"
+    strip-json-comments "^3.1.0"
+    text-table "^0.2.0"
+    v8-compile-cache "^2.0.3"
+
+espree@^9.0.0, espree@^9.3.2:
+  version "9.3.2"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/espree/-/espree-9.3.2.tgz?dl=https://registry.yarnpkg.com/espree/-/espree-9.3.2.tgz#f58f77bd334731182801ced3380a8cc859091596"
+  integrity sha1-9Y93vTNHMRgoAc7TOAqMyFkJFZY=
+  dependencies:
+    acorn "^8.7.1"
+    acorn-jsx "^5.3.2"
+    eslint-visitor-keys "^3.3.0"
+
 esprima@^4.0.0:
   version "4.0.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/esprima/-/esprima-4.0.1.tgz?dl=https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha1-E7BM2z5sXRnfkatph6hpVhmwqnE=
+
+esquery@^1.4.0:
+  version "1.4.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/esquery/-/esquery-1.4.0.tgz?dl=https://registry.yarnpkg.com/esquery/-/esquery-1.4.0.tgz#2148ffc38b82e8c7057dfed48425b3e61f0f24a5"
+  integrity sha1-IUj/w4uC6McFff7UhCWz5h8PJKU=
+  dependencies:
+    estraverse "^5.1.0"
 
 esrecurse@^4.3.0:
   version "4.3.0"
@@ -3042,7 +3725,7 @@ estraverse@^4.1.1:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/estraverse/-/estraverse-4.3.0.tgz?dl=https://registry.yarnpkg.com/estraverse/-/estraverse-4.3.0.tgz#398ad3f3c5a24948be7725e83d11a7de28cdbd1d"
   integrity sha1-OYrT88WiSUi+dyXoPRGn3ijNvR0=
 
-estraverse@^5.2.0:
+estraverse@^5.1.0, estraverse@^5.2.0:
   version "5.3.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/estraverse/-/estraverse-5.3.0.tgz?dl=https://registry.yarnpkg.com/estraverse/-/estraverse-5.3.0.tgz#2eea5290702f26ab8fe5370370ff86c965d21123"
   integrity sha1-LupSkHAvJquP5TcDcP+GyWXSESM=
@@ -3143,6 +3826,27 @@ fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz?dl=https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
   integrity sha1-On1WtVnWy8PrUSMlJE5hmmXGxSU=
 
+fast-diff@^1.1.2:
+  version "1.2.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/fast-diff/-/fast-diff-1.2.0.tgz?dl=https://registry.yarnpkg.com/fast-diff/-/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
+  integrity sha1-c+4RmC2Gyq95WYKNUZz+kn+sXwM=
+
+fast-equals@^2.0.0:
+  version "2.0.4"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/fast-equals/-/fast-equals-2.0.4.tgz?dl=https://registry.yarnpkg.com/fast-equals/-/fast-equals-2.0.4.tgz#3add9410585e2d7364c2deeb6a707beadb24b927"
+  integrity sha1-Ot2UEFheLXNkwt7ranB76tskuSc=
+
+fast-glob@3.2.7:
+  version "3.2.7"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/fast-glob/-/fast-glob-3.2.7.tgz?dl=https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.7.tgz#fd6cb7a2d7e9aa7a7846111e85a196d6b2f766a1"
+  integrity sha1-/Wy3otfpqnp4RhEehaGW1rL3ZqE=
+  dependencies:
+    "@nodelib/fs.stat" "^2.0.2"
+    "@nodelib/fs.walk" "^1.2.3"
+    glob-parent "^5.1.2"
+    merge2 "^1.3.0"
+    micromatch "^4.0.4"
+
 fast-glob@^3.2.7, fast-glob@^3.2.9:
   version "3.2.11"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/fast-glob/-/fast-glob-3.2.11.tgz?dl=https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.11.tgz#a1172ad95ceb8a16e20caa5c5e56480e5129c1d9"
@@ -3159,6 +3863,11 @@ fast-json-stable-stringify@2.1.0, fast-json-stable-stringify@^2.0.0:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz?dl=https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
   integrity sha1-h0v2nG9ATCtdmcSBNBOZ/VWJJjM=
 
+fast-levenshtein@^2.0.6:
+  version "2.0.6"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz?dl=https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
+  integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
+
 fastq@^1.6.0:
   version "1.13.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/fastq/-/fastq-1.13.0.tgz?dl=https://registry.yarnpkg.com/fastq/-/fastq-1.13.0.tgz#616760f88a7526bdfc596b7cab8c18938c36b98c"
@@ -3173,12 +3882,26 @@ faye-websocket@^0.11.3:
   dependencies:
     websocket-driver ">=0.5.1"
 
-figures@^3.0.0:
+figures@3.2.0, figures@^3.0.0:
   version "3.2.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/figures/-/figures-3.2.0.tgz?dl=https://registry.yarnpkg.com/figures/-/figures-3.2.0.tgz#625c18bd293c604dc4a8ddb2febf0c88341746af"
   integrity sha1-YlwYvSk8YE3EqN2y/r8MiDQXRq8=
   dependencies:
     escape-string-regexp "^1.0.5"
+
+file-entry-cache@^6.0.1:
+  version "6.0.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/file-entry-cache/-/file-entry-cache-6.0.1.tgz?dl=https://registry.yarnpkg.com/file-entry-cache/-/file-entry-cache-6.0.1.tgz#211b2dd9659cb0394b073e7323ac3c933d522027"
+  integrity sha1-IRst2WWcsDlLBz5zI6w8kz1SICc=
+  dependencies:
+    flat-cache "^3.0.4"
+
+filelist@^1.0.1:
+  version "1.0.4"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/filelist/-/filelist-1.0.4.tgz?dl=https://registry.yarnpkg.com/filelist/-/filelist-1.0.4.tgz#f78978a1e944775ff9e62e744424f215e58352b5"
+  integrity sha1-94l4oelEd1/55i50RCTyFeWDUrU=
+  dependencies:
+    minimatch "^5.0.1"
 
 fill-range@^7.0.1:
   version "7.0.1"
@@ -3230,7 +3953,20 @@ find-up@^4.0.0, find-up@^4.1.0:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
 
-flatted@^3.2.5:
+flat-cache@^3.0.4:
+  version "3.0.4"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/flat-cache/-/flat-cache-3.0.4.tgz?dl=https://registry.yarnpkg.com/flat-cache/-/flat-cache-3.0.4.tgz#61b0338302b2fe9f957dcc32fc2a87f1c3048b11"
+  integrity sha1-YbAzgwKy/p+Vfcwy/CqH8cMEixE=
+  dependencies:
+    flatted "^3.1.0"
+    rimraf "^3.0.2"
+
+flat@^5.0.2:
+  version "5.0.2"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/flat/-/flat-5.0.2.tgz?dl=https://registry.yarnpkg.com/flat/-/flat-5.0.2.tgz#8ca6fe332069ffa9d324c327198c598259ceb241"
+  integrity sha1-jKb+MyBp/6nTJMMnGYxZglnOskE=
+
+flatted@^3.1.0, flatted@^3.2.5:
   version "3.2.5"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/flatted/-/flatted-3.2.5.tgz?dl=https://registry.yarnpkg.com/flatted/-/flatted-3.2.5.tgz#76c8584f4fc843db64702a6bd04ab7a8bd666da3"
   integrity sha1-dshYT0/IQ9tkcCpr0Eq3qL1mbaM=
@@ -3255,11 +3991,26 @@ fresh@0.5.2:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/fresh/-/fresh-0.5.2.tgz?dl=https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
 
+fs-constants@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/fs-constants/-/fs-constants-1.0.0.tgz?dl=https://registry.yarnpkg.com/fs-constants/-/fs-constants-1.0.0.tgz#6be0de9be998ce16af8afc24497b9ee9b7ccd9ad"
+  integrity sha1-a+Dem+mYzhavivwkSXue6bfM2a0=
+
 fs-extra@^10.1.0:
   version "10.1.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/fs-extra/-/fs-extra-10.1.0.tgz?dl=https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.1.0.tgz#02873cfbc4084dde127eaa5f9905eef2325d1abf"
   integrity sha1-Aoc8+8QITd4SfqpfmQXu8jJdGr8=
   dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
+fs-extra@^9.1.0:
+  version "9.1.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/fs-extra/-/fs-extra-9.1.0.tgz?dl=https://registry.yarnpkg.com/fs-extra/-/fs-extra-9.1.0.tgz#5954460c764a8da2094ba3554bf839e6b9a7c86d"
+  integrity sha1-WVRGDHZKjaIJS6NVS/g55rmnyG0=
+  dependencies:
+    at-least-node "^1.0.0"
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
     universalify "^2.0.0"
@@ -3290,6 +4041,11 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/function-bind/-/function-bind-1.1.1.tgz?dl=https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=
+
+functional-red-black-tree@^1.0.1:
+  version "1.0.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz?dl=https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
+  integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
 functions-have-names@^1.2.2:
   version "1.2.3"
@@ -3358,6 +4114,18 @@ glob-to-regexp@^0.4.1:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz?dl=https://registry.yarnpkg.com/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz#c75297087c851b9a578bd217dd59a92f59fe546e"
   integrity sha1-x1KXCHyFG5pXi9IX3VmpL1n+VG4=
 
+glob@7.1.4:
+  version "7.1.4"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/glob/-/glob-7.1.4.tgz?dl=https://registry.yarnpkg.com/glob/-/glob-7.1.4.tgz#aa608a2f6c577ad357e1ae5a5c26d9a8d1969255"
+  integrity sha1-qmCKL2xXetNX4a5aXCbZqNGWklU=
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.4"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
 glob@7.2.0:
   version "7.2.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/glob/-/glob-7.2.0.tgz?dl=https://registry.yarnpkg.com/glob/-/glob-7.2.0.tgz#d15535af7732e02e948f4c41628bd910293f6023"
@@ -3370,7 +4138,7 @@ glob@7.2.0:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-glob@^7.1.3, glob@^7.1.4, glob@^7.1.6, glob@^7.1.7:
+glob@^7.1.3, glob@^7.1.4, glob@^7.1.6, glob@^7.1.7, glob@~7.2.0:
   version "7.2.3"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/glob/-/glob-7.2.3.tgz?dl=https://registry.yarnpkg.com/glob/-/glob-7.2.3.tgz#b8df0fb802bbfa8e89bd1d938b4e16578ed44f2b"
   integrity sha1-uN8PuAK7+o6JvR2Ti04WV47UTys=
@@ -3398,7 +4166,14 @@ globals@^11.1.0:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/globals/-/globals-11.12.0.tgz?dl=https://registry.yarnpkg.com/globals/-/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha1-q4eVM4hooLq9hSV1gBjCp+uVxC4=
 
-globby@^11.0.1:
+globals@^13.6.0, globals@^13.9.0:
+  version "13.15.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/globals/-/globals-13.15.0.tgz?dl=https://registry.yarnpkg.com/globals/-/globals-13.15.0.tgz#38113218c907d2f7e98658af246cef8b77e90bac"
+  integrity sha1-OBEyGMkH0vfphlivJGzvi3fpC6w=
+  dependencies:
+    type-fest "^0.20.2"
+
+globby@^11.0.1, globby@^11.0.4, globby@^11.1.0:
   version "11.1.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/globby/-/globby-11.1.0.tgz?dl=https://registry.yarnpkg.com/globby/-/globby-11.1.0.tgz#bd4be98bb042f83d796f7e3811991fbe82a0d34b"
   integrity sha1-vUvpi7BC+D15b344EZkfvoKg00s=
@@ -3431,6 +4206,13 @@ handle-thing@^2.0.0:
   version "2.0.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/handle-thing/-/handle-thing-2.0.1.tgz?dl=https://registry.yarnpkg.com/handle-thing/-/handle-thing-2.0.1.tgz#857f79ce359580c340d43081cc648970d0bb234e"
   integrity sha1-hX95zjWVgMNA1DCBzGSJcNC7I04=
+
+has-ansi@^2.0.0:
+  version "2.0.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/has-ansi/-/has-ansi-2.0.0.tgz?dl=https://registry.yarnpkg.com/has-ansi/-/has-ansi-2.0.0.tgz#34f5049ce1ecdf2b0649af3ef24e45ed35416d91"
+  integrity sha1-NPUEnOHs3ysGSa8+8k5F7TVBbZE=
+  dependencies:
+    ansi-regex "^2.0.0"
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -3647,7 +4429,7 @@ ignore-walk@^4.0.1:
   dependencies:
     minimatch "^3.0.4"
 
-ignore@^5.1.9, ignore@^5.2.0:
+ignore@5.2.0, ignore@^5.0.4, ignore@^5.1.8, ignore@^5.1.9, ignore@^5.2.0:
   version "5.2.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/ignore/-/ignore-5.2.0.tgz?dl=https://registry.yarnpkg.com/ignore/-/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
   integrity sha1-bTusj6f+DUXZ+b57rC/CeVd+NFo=
@@ -3662,7 +4444,7 @@ immutable@^4.0.0:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/immutable/-/immutable-4.0.0.tgz?dl=https://registry.yarnpkg.com/immutable/-/immutable-4.0.0.tgz#b86f78de6adef3608395efb269a91462797e2c23"
   integrity sha1-uG943mre82CDle+yaakUYnl+LCM=
 
-import-fresh@^3.2.1:
+import-fresh@^3.0.0, import-fresh@^3.2.1:
   version "3.3.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/import-fresh/-/import-fresh-3.3.0.tgz?dl=https://registry.yarnpkg.com/import-fresh/-/import-fresh-3.3.0.tgz#37162c25fcb9ebaa2e6e53d5b4d88ce17d9e0c2b"
   integrity sha1-NxYsJfy566oublPVtNiM4X2eDCs=
@@ -3792,7 +4574,7 @@ is-fullwidth-code-point@^3.0.0:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz?dl=https://registry.yarnpkg.com/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz#f116f8064fe90b3f7844a38997c0b75051269f1d"
   integrity sha1-8Rb4Bk/pCz94RKOJl8C3UFEmnx0=
 
-is-glob@^4.0.1, is-glob@^4.0.3, is-glob@~4.0.1:
+is-glob@^4.0.0, is-glob@^4.0.1, is-glob@^4.0.3, is-glob@~4.0.1:
   version "4.0.3"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/is-glob/-/is-glob-4.0.3.tgz?dl=https://registry.yarnpkg.com/is-glob/-/is-glob-4.0.3.tgz#64f61e42cbbb2eec2071a9dac0b28ba1e65d5084"
   integrity sha1-ZPYeQsu7LuwgcanawLKLoeZdUIQ=
@@ -3938,6 +4720,16 @@ istanbul-reports@^3.0.5:
     html-escaper "^2.0.0"
     istanbul-lib-report "^3.0.0"
 
+jake@^10.8.5:
+  version "10.8.5"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/jake/-/jake-10.8.5.tgz?dl=https://registry.yarnpkg.com/jake/-/jake-10.8.5.tgz#f2183d2c59382cb274226034543b9c03b8164c46"
+  integrity sha1-8hg9LFk4LLJ0ImA0VDucA7gWTEY=
+  dependencies:
+    async "^3.2.3"
+    chalk "^4.0.2"
+    filelist "^1.0.1"
+    minimatch "^3.0.4"
+
 jasmine-core@^3.6.0:
   version "3.99.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/jasmine-core/-/jasmine-core-3.99.1.tgz?dl=https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-3.99.1.tgz#5bfa4b2d76618868bfac4c8ff08bb26fffa4120d"
@@ -3957,6 +4749,11 @@ jest-worker@^27.4.5:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
+jquery@3.6.0:
+  version "3.6.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/jquery/-/jquery-3.6.0.tgz?dl=https://registry.yarnpkg.com/jquery/-/jquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
+  integrity sha1-xyoJ8Vwb3OFC9J2/EXC9+K2sJHA=
+
 js-tokens@^4.0.0:
   version "4.0.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/js-tokens/-/js-tokens-4.0.0.tgz?dl=https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -3969,6 +4766,13 @@ js-yaml@^3.13.1:
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
+
+js-yaml@^4.1.0:
+  version "4.1.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/js-yaml/-/js-yaml-4.1.0.tgz?dl=https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.0.tgz#c1fb65f8f5017901cdd2c951864ba18458a10602"
+  integrity sha1-wftl+PUBeQHN0slRhkuhhFihBgI=
+  dependencies:
+    argparse "^2.0.1"
 
 jsesc@^2.5.1:
   version "2.5.2"
@@ -3999,6 +4803,11 @@ json-schema-traverse@^1.0.0:
   version "1.0.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz?dl=https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz#ae7bcb3656ab77a73ba5c49bf654f38e6b6860e2"
   integrity sha1-rnvLNlard6c7pcSb9lTzjmtoYOI=
+
+json-stable-stringify-without-jsonify@^1.0.1:
+  version "1.0.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz?dl=https://registry.yarnpkg.com/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"
+  integrity sha1-nbe1lJatPzz+8wp1FC0tkwrXJlE=
 
 json5@^1.0.1:
   version "1.0.1"
@@ -4104,6 +4913,11 @@ kind-of@^6.0.2:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/kind-of/-/kind-of-6.0.3.tgz?dl=https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha1-B8BQNKbDSfoG4k+jWqdttFgM5N0=
 
+kleur@^3.0.3:
+  version "3.0.3"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/kleur/-/kleur-3.0.3.tgz?dl=https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
+  integrity sha1-p5yezIbuHOP6YgbRIWxQHxR/wH4=
+
 klona@^2.0.4, klona@^2.0.5:
   version "2.0.5"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/klona/-/klona-2.0.5.tgz?dl=https://registry.yarnpkg.com/klona/-/klona-2.0.5.tgz#d166574d90076395d9963aa7a928fabb8d76afbc"
@@ -4132,6 +4946,14 @@ less@4.1.2:
     mime "^1.4.1"
     needle "^2.5.2"
     source-map "~0.6.0"
+
+levn@^0.4.1:
+  version "0.4.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/levn/-/levn-0.4.1.tgz?dl=https://registry.yarnpkg.com/levn/-/levn-0.4.1.tgz#ae4562c007473b932a6200d403268dd2fffc6ade"
+  integrity sha1-rkViwAdHO5MqYgDUAyaN0v/8at4=
+  dependencies:
+    prelude-ls "^1.2.1"
+    type-check "~0.4.0"
 
 license-webpack-plugin@4.0.2:
   version "4.0.2"
@@ -4185,6 +5007,11 @@ lodash.debounce@^4.0.8:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/lodash.debounce/-/lodash.debounce-4.0.8.tgz?dl=https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
+lodash.merge@^4.6.0, lodash.merge@^4.6.2:
+  version "4.6.2"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/lodash.merge/-/lodash.merge-4.6.2.tgz?dl=https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
+  integrity sha1-VYqlO0O2YeGSWgr9+japoQhf5Xo=
+
 lodash.sortby@^4.7.0:
   version "4.7.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/lodash.sortby/-/lodash.sortby-4.7.0.tgz?dl=https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
@@ -4214,6 +5041,19 @@ log4js@^6.4.1:
     rfdc "^1.3.0"
     streamroller "^3.0.9"
 
+loglevel-colored-level-prefix@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/loglevel-colored-level-prefix/-/loglevel-colored-level-prefix-1.0.0.tgz?dl=https://registry.yarnpkg.com/loglevel-colored-level-prefix/-/loglevel-colored-level-prefix-1.0.0.tgz#6a40218fdc7ae15fc76c3d0f3e676c465388603e"
+  integrity sha1-akAhj9x64V/HbD0PPmdsRlOIYD4=
+  dependencies:
+    chalk "^1.1.3"
+    loglevel "^1.4.1"
+
+loglevel@^1.4.1:
+  version "1.8.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/loglevel/-/loglevel-1.8.0.tgz?dl=https://registry.yarnpkg.com/loglevel/-/loglevel-1.8.0.tgz#e7ec73a57e1e7b419cb6c6ac06bf050b67356114"
+  integrity sha1-5+xzpX4ee0GctsasBr8FC2c1YRQ=
+
 lru-cache@^6.0.0:
   version "6.0.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/lru-cache/-/lru-cache-6.0.0.tgz?dl=https://registry.yarnpkg.com/lru-cache/-/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
@@ -4225,6 +5065,11 @@ lru-cache@^7.7.1:
   version "7.10.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/lru-cache/-/lru-cache-7.10.1.tgz?dl=https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.10.1.tgz#db577f42a94c168f676b638d15da8fb073448cab"
   integrity sha1-21d/QqlMFo9na2ONFdqPsHNEjKs=
+
+lz-string@^1.4.4:
+  version "1.4.4"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/lz-string/-/lz-string-1.4.4.tgz?dl=https://registry.yarnpkg.com/lz-string/-/lz-string-1.4.4.tgz#c0d8eaf36059f705796e1e344811cf4c498d3a26"
+  integrity sha1-wNjq82BZ9wV5bh40SBHPTEmNOiY=
 
 magic-string@0.25.7:
   version "0.25.7"
@@ -4378,6 +5223,13 @@ minimalistic-assert@^1.0.0:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz?dl=https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
   integrity sha1-LhlN4ERibUoQ5/f7wAznPoPk1cc=
 
+minimatch@3.0.4:
+  version "3.0.4"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/minimatch/-/minimatch-3.0.4.tgz?dl=https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
+  integrity sha1-UWbihkV/AzBgZL5Ul+jbsMPTIIM=
+  dependencies:
+    brace-expansion "^1.1.7"
+
 minimatch@3.0.5:
   version "3.0.5"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/minimatch/-/minimatch-3.0.5.tgz?dl=https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.5.tgz#4da8f1290ee0f0f8e83d60ca69f8f134068604a3"
@@ -4385,7 +5237,7 @@ minimatch@3.0.5:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimatch@^3.0.4, minimatch@^3.1.1:
+minimatch@^3.0.4, minimatch@^3.1.1, minimatch@^3.1.2:
   version "3.1.2"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/minimatch/-/minimatch-3.1.2.tgz?dl=https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
   integrity sha1-Gc0ZS/0+Qo8EmnCBfAONiatL41s=
@@ -4527,6 +5379,11 @@ nanoid@^3.1.30, nanoid@^3.3.3:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/nanoid/-/nanoid-3.3.4.tgz?dl=https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"
   integrity sha1-cwtn480J4t6s8DwCfIHJ2dvF6Ks=
 
+natural-compare@^1.4.0:
+  version "1.4.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/natural-compare/-/natural-compare-1.4.0.tgz?dl=https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
+  integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
+
 needle@^2.5.2:
   version "2.9.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/needle/-/needle-2.9.1.tgz?dl=https://registry.yarnpkg.com/needle/-/needle-2.9.1.tgz#22d1dffbe3490c2b83e301f7709b6736cd8f2684"
@@ -4554,7 +5411,7 @@ nice-napi@^1.0.2:
     node-addon-api "^3.0.0"
     node-gyp-build "^4.2.2"
 
-node-addon-api@^3.0.0:
+node-addon-api@^3.0.0, node-addon-api@^3.2.1:
   version "3.2.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/node-addon-api/-/node-addon-api-3.2.1.tgz?dl=https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-3.2.1.tgz#81325e0a2117789c0128dab65e7e38f07ceba161"
   integrity sha1-gTJeCiEXeJwBKNq2Xn448HzroWE=
@@ -4564,7 +5421,7 @@ node-forge@^1:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/node-forge/-/node-forge-1.3.1.tgz?dl=https://registry.yarnpkg.com/node-forge/-/node-forge-1.3.1.tgz#be8da2af243b2417d5f646a770663a92b7e9ded3"
   integrity sha1-vo2iryQ7JBfV9kancGY6krfp3tM=
 
-node-gyp-build@^4.2.2:
+node-gyp-build@^4.2.2, node-gyp-build@^4.3.0:
   version "4.4.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/node-gyp-build/-/node-gyp-build-4.4.0.tgz?dl=https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.4.0.tgz#42e99687ce87ddeaf3a10b99dc06abc11021f3f4"
   integrity sha1-QumWh86H3erzoQuZ3AarwRAh8/Q=
@@ -4691,6 +5548,52 @@ nth-check@^2.0.1:
   dependencies:
     boolbase "^1.0.0"
 
+nx@13.1.3:
+  version "13.1.3"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/nx/-/nx-13.1.3.tgz?dl=https://registry.yarnpkg.com/nx/-/nx-13.1.3.tgz#0b2db9b5bc87a47fb3a90014d2b2abb44f568851"
+  integrity sha1-Cy25tbyHpH+zqQAU0rKrtE9WiFE=
+  dependencies:
+    "@nrwl/cli" "*"
+
+nx@14.1.7:
+  version "14.1.7"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/nx/-/nx-14.1.7.tgz?dl=https://registry.yarnpkg.com/nx/-/nx-14.1.7.tgz#00cea7c3fc3f01cdfcbb381d51d86094cae7c367"
+  integrity sha1-AM6nw/w/Ac38uzgdUdhglMrnw2c=
+  dependencies:
+    "@nrwl/cli" "14.1.7"
+    "@nrwl/tao" "14.1.7"
+    "@parcel/watcher" "2.0.4"
+    "@swc-node/register" "^1.4.2"
+    "@swc/core" "^1.2.173"
+    chalk "4.1.0"
+    chokidar "^3.5.1"
+    cli-cursor "3.1.0"
+    cli-spinners "2.6.1"
+    cliui "^7.0.2"
+    dotenv "~10.0.0"
+    enquirer "~2.3.6"
+    fast-glob "3.2.7"
+    figures "3.2.0"
+    flat "^5.0.2"
+    fs-extra "^10.1.0"
+    glob "7.1.4"
+    ignore "^5.0.4"
+    jsonc-parser "3.0.0"
+    minimatch "3.0.4"
+    npm-run-path "^4.0.1"
+    open "^8.4.0"
+    rxjs "^6.5.4"
+    rxjs-for-await "0.0.2"
+    semver "7.3.4"
+    string-width "^4.2.3"
+    tar-stream "~2.2.0"
+    tmp "~0.2.1"
+    tsconfig-paths "^3.9.0"
+    tslib "^2.3.0"
+    v8-compile-cache "2.3.0"
+    yargs "^17.4.0"
+    yargs-parser "21.0.1"
+
 object-assign@^4:
   version "4.1.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/object-assign/-/object-assign-4.1.1.tgz?dl=https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
@@ -4748,7 +5651,7 @@ on-headers@~1.0.2:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/on-headers/-/on-headers-1.0.2.tgz?dl=https://registry.yarnpkg.com/on-headers/-/on-headers-1.0.2.tgz#772b0ae6aaa525c399e489adfad90c403eb3c28f"
   integrity sha1-dysK5qqlJcOZ5Imt+tkMQD6zwo8=
 
-once@^1.3.0:
+once@^1.3.0, once@^1.4.0:
   version "1.4.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/once/-/once-1.4.0.tgz?dl=https://registry.yarnpkg.com/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
   integrity sha1-WDsap3WWHUsROsF9nFC6753Xa9E=
@@ -4762,7 +5665,7 @@ onetime@^5.1.0, onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
-open@8.4.0, open@^8.0.9:
+open@8.4.0, open@^8.0.9, open@^8.4.0:
   version "8.4.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/open/-/open-8.4.0.tgz?dl=https://registry.yarnpkg.com/open/-/open-8.4.0.tgz#345321ae18f8138f82565a910fdc6b39e8c244f8"
   integrity sha1-NFMhrhj4E4+CVlqRD9xrOejCRPg=
@@ -4770,6 +5673,18 @@ open@8.4.0, open@^8.0.9:
     define-lazy-prop "^2.0.0"
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
+
+optionator@^0.9.1:
+  version "0.9.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/optionator/-/optionator-0.9.1.tgz?dl=https://registry.yarnpkg.com/optionator/-/optionator-0.9.1.tgz#4f236a6373dae0566a6d43e1326674f50c291499"
+  integrity sha1-TyNqY3Pa4FZqbUPhMmZ09QwpFJk=
+  dependencies:
+    deep-is "^0.1.3"
+    fast-levenshtein "^2.0.6"
+    levn "^0.4.1"
+    prelude-ls "^1.2.1"
+    type-check "^0.4.0"
+    word-wrap "^1.2.3"
 
 ora@5.4.1, ora@^5.4.1:
   version "5.4.1"
@@ -4963,6 +5878,11 @@ pify@^4.0.1:
   version "4.0.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/pify/-/pify-4.0.1.tgz?dl=https://registry.yarnpkg.com/pify/-/pify-4.0.1.tgz#4b2cd25c50d598735c50292224fd8c6df41e3231"
   integrity sha1-SyzSXFDVmHNcUCkiJP2MbfQeMjE=
+
+pirates@^4.0.5:
+  version "4.0.5"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/pirates/-/pirates-4.0.5.tgz?dl=https://registry.yarnpkg.com/pirates/-/pirates-4.0.5.tgz#feec352ea5c3268fb23a37c702ab1699f35a5f3b"
+  integrity sha1-/uw1LqXDJo+yOjfHAqsWmfNaXzs=
 
 piscina@3.2.0:
   version "3.2.0"
@@ -5274,10 +6194,64 @@ postcss@^8.2.14, postcss@^8.2.15, postcss@^8.3.7:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
+prelude-ls@^1.2.1:
+  version "1.2.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/prelude-ls/-/prelude-ls-1.2.1.tgz?dl=https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
+  integrity sha1-3rxkidem5rDnYRiIzsiAM30xY5Y=
+
+prettier-eslint@^15.0.0:
+  version "15.0.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/prettier-eslint/-/prettier-eslint-15.0.0.tgz?dl=https://registry.yarnpkg.com/prettier-eslint/-/prettier-eslint-15.0.0.tgz#727c5f2f8f40dc745b08694f1a17eaf2ab68e9e7"
+  integrity sha1-cnxfL49A3HRbCGlPGhfq8qto6ec=
+  dependencies:
+    "@types/eslint" "^8.4.2"
+    "@types/prettier" "^2.6.0"
+    "@typescript-eslint/parser" "^5.10.0"
+    common-tags "^1.4.0"
+    dlv "^1.1.0"
+    eslint "^8.7.0"
+    indent-string "^4.0.0"
+    lodash.merge "^4.6.0"
+    loglevel-colored-level-prefix "^1.0.0"
+    prettier "^2.5.1"
+    pretty-format "^23.0.1"
+    require-relative "^0.8.7"
+    typescript "^4.5.4"
+    vue-eslint-parser "^8.0.1"
+
+prettier-linter-helpers@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/prettier-linter-helpers/-/prettier-linter-helpers-1.0.0.tgz?dl=https://registry.yarnpkg.com/prettier-linter-helpers/-/prettier-linter-helpers-1.0.0.tgz#d23d41fe1375646de2d0104d3454a3008802cf7b"
+  integrity sha1-0j1B/hN1ZG3i0BBNNFSjAIgCz3s=
+  dependencies:
+    fast-diff "^1.1.2"
+
+prettier@^2.5.1, prettier@^2.6.2:
+  version "2.6.2"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/prettier/-/prettier-2.6.2.tgz?dl=https://registry.yarnpkg.com/prettier/-/prettier-2.6.2.tgz#e26d71a18a74c3d0f0597f55f01fb6c06c206032"
+  integrity sha1-4m1xoYp0w9DwWX9V8B+2wGwgYDI=
+
 pretty-bytes@^5.3.0:
   version "5.6.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/pretty-bytes/-/pretty-bytes-5.6.0.tgz?dl=https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-5.6.0.tgz#356256f643804773c82f64723fe78c92c62beaeb"
   integrity sha1-NWJW9kOAR3PIL2RyP+eMksYr6us=
+
+pretty-format@^23.0.1:
+  version "23.6.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/pretty-format/-/pretty-format-23.6.0.tgz?dl=https://registry.yarnpkg.com/pretty-format/-/pretty-format-23.6.0.tgz#5eaac8eeb6b33b987b7fe6097ea6a8a146ab5760"
+  integrity sha1-XqrI7razO5h7f+YJfqaooUarV2A=
+  dependencies:
+    ansi-regex "^3.0.0"
+    ansi-styles "^3.2.0"
+
+pretty-format@^27.0.2:
+  version "27.5.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/pretty-format/-/pretty-format-27.5.1.tgz?dl=https://registry.yarnpkg.com/pretty-format/-/pretty-format-27.5.1.tgz#2181879fdea51a7a5851fb39d920faa63f01d88e"
+  integrity sha1-IYGHn96lGnpYUfs52SD6pj8B2I4=
+  dependencies:
+    ansi-regex "^5.0.1"
+    ansi-styles "^5.0.0"
+    react-is "^17.0.1"
 
 process-nextick-args@~2.0.0:
   version "2.0.1"
@@ -5296,6 +6270,14 @@ promise-retry@^2.0.1:
   dependencies:
     err-code "^2.0.2"
     retry "^0.12.0"
+
+prompts@~2.4.2:
+  version "2.4.2"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/prompts/-/prompts-2.4.2.tgz?dl=https://registry.yarnpkg.com/prompts/-/prompts-2.4.2.tgz#7b57e73b3a48029ad10ebd44f74b01722a4cb069"
+  integrity sha1-e1fnOzpIAprRDr1E90sBcipMsGk=
+  dependencies:
+    kleur "^3.0.3"
+    sisteransi "^1.0.5"
 
 proxy-addr@~2.0.7:
   version "2.0.7"
@@ -5354,6 +6336,11 @@ raw-body@2.5.1:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+react-is@^17.0.1:
+  version "17.0.2"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/react-is/-/react-is-17.0.2.tgz?dl=https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
+  integrity sha1-5pHUqOnHiTZWVVOas3J2Kw77VPA=
+
 read-cache@^1.0.0:
   version "1.0.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/read-cache/-/read-cache-1.0.0.tgz?dl=https://registry.yarnpkg.com/read-cache/-/read-cache-1.0.0.tgz#e664ef31161166c9751cdbe8dbcf86b5fb58f774"
@@ -5382,7 +6369,7 @@ readable-stream@^2.0.1:
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
-readable-stream@^3.0.6, readable-stream@^3.4.0, readable-stream@^3.6.0:
+readable-stream@^3.0.6, readable-stream@^3.1.1, readable-stream@^3.4.0, readable-stream@^3.6.0:
   version "3.6.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/readable-stream/-/readable-stream-3.6.0.tgz?dl=https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.6.0.tgz#337bbda3adc0706bd3e024426a286d4b4b2c9198"
   integrity sha1-M3u9o63AcGvT4CRCaihtS0sskZg=
@@ -5441,6 +6428,11 @@ regexp.prototype.flags@^1.2.0:
     define-properties "^1.1.3"
     functions-have-names "^1.2.2"
 
+regexpp@^3.2.0:
+  version "3.2.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/regexpp/-/regexpp-3.2.0.tgz?dl=https://registry.yarnpkg.com/regexpp/-/regexpp-3.2.0.tgz#0425a2768d8f23bad70ca4b90461fa2f1213e1b2"
+  integrity sha1-BCWido2PI7rXDKS5BGH6LxIT4bI=
+
 regexpu-core@^5.0.1:
   version "5.0.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/regexpu-core/-/regexpu-core-5.0.1.tgz?dl=https://registry.yarnpkg.com/regexpu-core/-/regexpu-core-5.0.1.tgz#c531122a7840de743dcf9c83e923b5560323ced3"
@@ -5465,6 +6457,15 @@ regjsparser@^0.8.2:
   dependencies:
     jsesc "~0.5.0"
 
+replace-in-file@6.2.0:
+  version "6.2.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/replace-in-file/-/replace-in-file-6.2.0.tgz?dl=https://registry.yarnpkg.com/replace-in-file/-/replace-in-file-6.2.0.tgz#9c0e381b0e02f27f83d5ba500bb4046f63d18566"
+  integrity sha1-nA44Gw4C8n+D1bpQC7QEb2PRhWY=
+  dependencies:
+    chalk "^4.1.0"
+    glob "^7.1.6"
+    yargs "^16.2.0"
+
 require-directory@^2.1.1:
   version "2.1.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/require-directory/-/require-directory-2.1.1.tgz?dl=https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
@@ -5474,6 +6475,11 @@ require-from-string@^2.0.2:
   version "2.0.2"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/require-from-string/-/require-from-string-2.0.2.tgz?dl=https://registry.yarnpkg.com/require-from-string/-/require-from-string-2.0.2.tgz#89a7fdd938261267318eafe14f9c32e598c36909"
   integrity sha1-iaf92TgmEmcxjq/hT5wy5ZjDaQk=
+
+require-relative@^0.8.7:
+  version "0.8.7"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/require-relative/-/require-relative-0.8.7.tgz?dl=https://registry.yarnpkg.com/require-relative/-/require-relative-0.8.7.tgz#7999539fc9e047a37928fa196f8e1563dabd36de"
+  integrity sha1-eZlTn8ngR6N5KPoZb44VY9q9Nt4=
 
 requires-port@^1.0.0:
   version "1.0.0"
@@ -5557,7 +6563,33 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxjs@6.6.7:
+rxjs-for-await@0.0.2:
+  version "0.0.2"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/rxjs-for-await/-/rxjs-for-await-0.0.2.tgz?dl=https://registry.yarnpkg.com/rxjs-for-await/-/rxjs-for-await-0.0.2.tgz#26598a1d6167147cc192172970e7eed4e620384b"
+  integrity sha1-JlmKHWFnFHzBkhcpcOfu1OYgOEs=
+
+rxjs-marbles@^7.0.1:
+  version "7.0.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/rxjs-marbles/-/rxjs-marbles-7.0.1.tgz?dl=https://registry.yarnpkg.com/rxjs-marbles/-/rxjs-marbles-7.0.1.tgz#92e99366a26497197f0c701ff944dc46ba876487"
+  integrity sha1-kumTZqJklxl/DHAf+UTcRrqHZIc=
+  dependencies:
+    fast-equals "^2.0.0"
+    rxjs-report-usage "^1.0.4"
+
+rxjs-report-usage@^1.0.4:
+  version "1.0.6"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/rxjs-report-usage/-/rxjs-report-usage-1.0.6.tgz?dl=https://registry.yarnpkg.com/rxjs-report-usage/-/rxjs-report-usage-1.0.6.tgz#6e06034d9e1592e8a45bee877631638e4bac2576"
+  integrity sha1-bgYDTZ4VkuikW+6HdjFjjkusJXY=
+  dependencies:
+    "@babel/parser" "^7.10.3"
+    "@babel/traverse" "^7.10.3"
+    "@babel/types" "^7.10.3"
+    bent "~7.3.6"
+    chalk "~4.1.0"
+    glob "~7.2.0"
+    prompts "~2.4.2"
+
+rxjs@6.6.7, rxjs@^6.5.4:
   version "6.6.7"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/rxjs/-/rxjs-6.6.7.tgz?dl=https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.7.tgz#90ac018acabf491bf65044235d5863c4dab804c9"
   integrity sha1-kKwBisq/SRv2UEQjXVhjxNq4BMk=
@@ -5653,6 +6685,13 @@ semver@7.0.0:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/semver/-/semver-7.0.0.tgz?dl=https://registry.yarnpkg.com/semver/-/semver-7.0.0.tgz#5f3ca35761e47e05b206c6daff2cf814f0316b8e"
   integrity sha1-XzyjV2HkfgWyBsba/yz4FPAxa44=
 
+semver@7.3.4:
+  version "7.3.4"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/semver/-/semver-7.3.4.tgz?dl=https://registry.yarnpkg.com/semver/-/semver-7.3.4.tgz#27aaa7d2e4ca76452f98d3add093a72c943edc97"
+  integrity sha1-J6qn0uTKdkUvmNOt0JOnLJQ+3Jc=
+  dependencies:
+    lru-cache "^6.0.0"
+
 semver@7.3.5:
   version "7.3.5"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/semver/-/semver-7.3.5.tgz?dl=https://registry.yarnpkg.com/semver/-/semver-7.3.5.tgz#0b621c879348d8998e4b0e4be94b3f12e6018ef7"
@@ -5670,7 +6709,7 @@ semver@^6.0.0, semver@^6.1.1, semver@^6.1.2, semver@^6.3.0:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/semver/-/semver-6.3.0.tgz?dl=https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha1-7gpkyK9ejO6mdoexM3YeG+y9HT0=
 
-semver@^7.0.0, semver@^7.1.1, semver@^7.3.4, semver@^7.3.5:
+semver@^7.0.0, semver@^7.1.1, semver@^7.3.4, semver@^7.3.5, semver@^7.3.7:
   version "7.3.7"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/semver/-/semver-7.3.7.tgz?dl=https://registry.yarnpkg.com/semver/-/semver-7.3.7.tgz#12c5b649afdbf9049707796e22a4028814ce523f"
   integrity sha1-EsW2Sa/b+QSXB3luIqQCiBTOUj8=
@@ -5774,6 +6813,11 @@ signal-exit@^3.0.2, signal-exit@^3.0.3, signal-exit@^3.0.7:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/signal-exit/-/signal-exit-3.0.7.tgz?dl=https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha1-qaF2f4r4QVURTqq9c/mSc8j1mtk=
 
+sisteransi@^1.0.5:
+  version "1.0.5"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/sisteransi/-/sisteransi-1.0.5.tgz?dl=https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.5.tgz#134d681297756437cc05ca01370d3a7a571075ed"
+  integrity sha1-E01oEpd1ZDfMBcoBNw06elcQde0=
+
 slash@^3.0.0:
   version "3.0.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/slash/-/slash-3.0.0.tgz?dl=https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
@@ -5863,7 +6907,7 @@ source-map-resolve@^0.6.0:
     atob "^2.1.2"
     decode-uri-component "^0.2.0"
 
-source-map-support@0.5.21, source-map-support@^0.5.5, source-map-support@~0.5.20:
+source-map-support@0.5.21, source-map-support@^0.5.21, source-map-support@^0.5.5, source-map-support@~0.5.20:
   version "0.5.21"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/source-map-support/-/source-map-support-0.5.21.tgz?dl=https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
   integrity sha1-BP58f54e0tZiIzwoyys1ufY/bk8=
@@ -5982,6 +7026,13 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
+strip-ansi@^3.0.0:
+  version "3.0.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/strip-ansi/-/strip-ansi-3.0.1.tgz?dl=https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-3.0.1.tgz#6a385fb8853d952d5ff05d0e8aaf94278dc63dcf"
+  integrity sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8=
+  dependencies:
+    ansi-regex "^2.0.0"
+
 strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/strip-ansi/-/strip-ansi-6.0.1.tgz?dl=https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
@@ -5996,10 +7047,20 @@ strip-ansi@^7.0.0:
   dependencies:
     ansi-regex "^6.0.1"
 
+strip-bom@^3.0.0:
+  version "3.0.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/strip-bom/-/strip-bom-3.0.0.tgz?dl=https://registry.yarnpkg.com/strip-bom/-/strip-bom-3.0.0.tgz#2334c18e9c759f7bdd56fdef7e9ae3d588e68ed3"
+  integrity sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=
+
 strip-final-newline@^2.0.0:
   version "2.0.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/strip-final-newline/-/strip-final-newline-2.0.0.tgz?dl=https://registry.yarnpkg.com/strip-final-newline/-/strip-final-newline-2.0.0.tgz#89b852fb2fcbe936f6f4b3187afb0a12c1ab58ad"
   integrity sha1-ibhS+y/L6Tb29LMYevsKEsGrWK0=
+
+strip-json-comments@3.1.1, strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
+  version "3.1.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/strip-json-comments/-/strip-json-comments-3.1.1.tgz?dl=https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
+  integrity sha1-MfEoGzgyYwQ0gxwxDAHMzajL4AY=
 
 stylus-loader@6.2.0:
   version "6.2.0"
@@ -6021,6 +7082,11 @@ stylus@0.56.0:
     safer-buffer "^2.1.2"
     sax "~1.2.4"
     source-map "^0.7.3"
+
+supports-color@^2.0.0:
+  version "2.0.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/supports-color/-/supports-color-2.0.0.tgz?dl=https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
+  integrity sha1-U10EXOa2Nj+kARcIRimZXp3zJMc=
 
 supports-color@^5.3.0:
   version "5.5.0"
@@ -6057,6 +7123,17 @@ tapable@^2.1.1, tapable@^2.2.0:
   version "2.2.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/tapable/-/tapable-2.2.1.tgz?dl=https://registry.yarnpkg.com/tapable/-/tapable-2.2.1.tgz#1967a73ef4060a82f12ab96af86d52fdb76eeca0"
   integrity sha1-GWenPvQGCoLxKrlq+G1S/bdu7KA=
+
+tar-stream@~2.2.0:
+  version "2.2.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/tar-stream/-/tar-stream-2.2.0.tgz?dl=https://registry.yarnpkg.com/tar-stream/-/tar-stream-2.2.0.tgz#acad84c284136b060dc3faa64474aa9aebd77287"
+  integrity sha1-rK2EwoQTawYNw/qmRHSqmuvXcoc=
+  dependencies:
+    bl "^4.0.3"
+    end-of-stream "^1.4.1"
+    fs-constants "^1.0.0"
+    inherits "^2.0.3"
+    readable-stream "^3.1.1"
 
 tar@^6.0.2, tar@^6.1.0, tar@^6.1.11, tar@^6.1.2:
   version "6.1.11"
@@ -6110,7 +7187,7 @@ test-exclude@^6.0.0:
     glob "^7.1.4"
     minimatch "^3.0.4"
 
-text-table@0.2.0:
+text-table@0.2.0, text-table@^0.2.0:
   version "0.2.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/text-table/-/text-table-0.2.0.tgz?dl=https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
@@ -6125,19 +7202,19 @@ thunky@^1.0.2:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/thunky/-/thunky-1.1.0.tgz?dl=https://registry.yarnpkg.com/thunky/-/thunky-1.1.0.tgz#5abaf714a9405db0504732bbccd2cedd9ef9537d"
   integrity sha1-Wrr3FKlAXbBQRzK7zNLO3Z75U30=
 
+tmp@0.2.1, tmp@^0.2.1, tmp@~0.2.1:
+  version "0.2.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/tmp/-/tmp-0.2.1.tgz?dl=https://registry.yarnpkg.com/tmp/-/tmp-0.2.1.tgz#8457fc3037dcf4719c251367a1af6500ee1ccf14"
+  integrity sha1-hFf8MDfc9HGcJRNnoa9lAO4czxQ=
+  dependencies:
+    rimraf "^3.0.0"
+
 tmp@^0.0.33:
   version "0.0.33"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/tmp/-/tmp-0.0.33.tgz?dl=https://registry.yarnpkg.com/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
   integrity sha1-bTQzWIl2jSGyvNoKonfO07G/rfk=
   dependencies:
     os-tmpdir "~1.0.2"
-
-tmp@^0.2.1:
-  version "0.2.1"
-  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/tmp/-/tmp-0.2.1.tgz?dl=https://registry.yarnpkg.com/tmp/-/tmp-0.2.1.tgz#8457fc3037dcf4719c251367a1af6500ee1ccf14"
-  integrity sha1-hFf8MDfc9HGcJRNnoa9lAO4czxQ=
-  dependencies:
-    rimraf "^3.0.0"
 
 to-fast-properties@^2.0.0:
   version "2.0.0"
@@ -6168,20 +7245,49 @@ tree-kill@1.2.2:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/tree-kill/-/tree-kill-1.2.2.tgz?dl=https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
   integrity sha1-TKCakJLIi3OnzcXooBtQeweQoMw=
 
+tsconfig-paths@^3.9.0:
+  version "3.14.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/tsconfig-paths/-/tsconfig-paths-3.14.1.tgz?dl=https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.14.1.tgz#ba0734599e8ea36c862798e920bcf163277b137a"
+  integrity sha1-ugc0WZ6Oo2yGJ5jpILzxYyd7E3o=
+  dependencies:
+    "@types/json5" "^0.0.29"
+    json5 "^1.0.1"
+    minimist "^1.2.6"
+    strip-bom "^3.0.0"
+
 tslib@2.3.1:
   version "2.3.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/tslib/-/tslib-2.3.1.tgz?dl=https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha1-6KM1rdXOrlGqJh0ypJAVjvBC7wE=
 
-tslib@^1.9.0:
+tslib@^1.8.1, tslib@^1.9.0:
   version "1.14.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/tslib/-/tslib-1.14.1.tgz?dl=https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
 
-tslib@^2.0.0, tslib@^2.1.0, tslib@^2.3.0:
+tslib@^2.0.0, tslib@^2.1.0, tslib@^2.3.0, tslib@^2.4.0:
   version "2.4.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/tslib/-/tslib-2.4.0.tgz?dl=https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha1-fOyqfwc85oCgWEeqd76UEJjzbcM=
+
+tsutils@^3.21.0:
+  version "3.21.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/tsutils/-/tsutils-3.21.0.tgz?dl=https://registry.yarnpkg.com/tsutils/-/tsutils-3.21.0.tgz#b48717d394cea6c1e096983eed58e9d61715b623"
+  integrity sha1-tIcX05TOpsHglpg+7Vjp1hcVtiM=
+  dependencies:
+    tslib "^1.8.1"
+
+type-check@^0.4.0, type-check@~0.4.0:
+  version "0.4.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/type-check/-/type-check-0.4.0.tgz?dl=https://registry.yarnpkg.com/type-check/-/type-check-0.4.0.tgz#07b8203bfa7056c0657050e3ccd2c37730bab8f1"
+  integrity sha1-B7ggO/pwVsBlcFDjzNLDdzC6uPE=
+  dependencies:
+    prelude-ls "^1.2.1"
+
+type-fest@^0.20.2:
+  version "0.20.2"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/type-fest/-/type-fest-0.20.2.tgz?dl=https://registry.yarnpkg.com/type-fest/-/type-fest-0.20.2.tgz#1bf207f4b28f91583666cb5fbd327887301cd5f4"
+  integrity sha1-G/IH9LKPkVg2ZstfvTJ4hzAc1fQ=
 
 type-fest@^0.21.3:
   version "0.21.3"
@@ -6201,7 +7307,7 @@ typed-assert@^1.0.8:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/typed-assert/-/typed-assert-1.0.9.tgz?dl=https://registry.yarnpkg.com/typed-assert/-/typed-assert-1.0.9.tgz#8af9d4f93432c4970ec717e3006f33f135b06213"
   integrity sha1-ivnU+TQyxJcOxxfjAG8z8TWwYhM=
 
-typescript@~4.6.2:
+typescript@^4.5.4, typescript@~4.6.2:
   version "4.6.4"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/typescript/-/typescript-4.6.4.tgz?dl=https://registry.yarnpkg.com/typescript/-/typescript-4.6.4.tgz#caa78bbc3a59e6a5c510d35703f6a09877ce45e9"
   integrity sha1-yqeLvDpZ5qXFENNXA/agmHfORek=
@@ -6280,6 +7386,11 @@ uuid@8.3.2, uuid@^8.3.2:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/uuid/-/uuid-8.3.2.tgz?dl=https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha1-gNW1ztJxu5r2xEXyGhoExgbO++I=
 
+v8-compile-cache@2.3.0, v8-compile-cache@^2.0.3:
+  version "2.3.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz?dl=https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
+  integrity sha1-LeGWGMZtwkfc+2+ZM4A12CRaLO4=
+
 validate-npm-package-name@^3.0.0:
   version "3.0.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/validate-npm-package-name/-/validate-npm-package-name-3.0.0.tgz?dl=https://registry.yarnpkg.com/validate-npm-package-name/-/validate-npm-package-name-3.0.0.tgz#5fa912d81eb7d0c74afc140de7317f0ca7df437e"
@@ -6296,6 +7407,19 @@ void-elements@^2.0.0:
   version "2.0.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/void-elements/-/void-elements-2.0.1.tgz?dl=https://registry.yarnpkg.com/void-elements/-/void-elements-2.0.1.tgz#c066afb582bb1cb4128d60ea92392e94d5e9dbec"
   integrity sha1-wGavtYK7HLQSjWDqkjkulNXp2+w=
+
+vue-eslint-parser@^8.0.1:
+  version "8.3.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/vue-eslint-parser/-/vue-eslint-parser-8.3.0.tgz?dl=https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-8.3.0.tgz#5d31129a1b3dd89c0069ca0a1c88f970c360bd0d"
+  integrity sha1-XTESmhs92JwAacoKHIj5cMNgvQ0=
+  dependencies:
+    debug "^4.3.2"
+    eslint-scope "^7.0.0"
+    eslint-visitor-keys "^3.1.0"
+    espree "^9.0.0"
+    esquery "^1.4.0"
+    lodash "^4.17.21"
+    semver "^7.3.5"
 
 watchpack@^2.3.1:
   version "2.3.1"
@@ -6480,6 +7604,11 @@ wildcard@^2.0.0:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/wildcard/-/wildcard-2.0.0.tgz?dl=https://registry.yarnpkg.com/wildcard/-/wildcard-2.0.0.tgz#a77d20e5200c6faaac979e4b3aadc7b3dd7f8fec"
   integrity sha1-p30g5SAMb6qsl55LOq3Hs91/j+w=
 
+word-wrap@^1.2.3:
+  version "1.2.3"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/word-wrap/-/word-wrap-1.2.3.tgz?dl=https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
+  integrity sha1-YQY29rH3A4kb00dxzLF/uTtHB5w=
+
 wrap-ansi@^7.0.0:
   version "7.0.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/wrap-ansi/-/wrap-ansi-7.0.0.tgz?dl=https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
@@ -6519,17 +7648,22 @@ yaml@^1.10.0:
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/yaml/-/yaml-1.10.2.tgz?dl=https://registry.yarnpkg.com/yaml/-/yaml-1.10.2.tgz#2301c5ffbf12b467de8da2333a459e29e7920e4b"
   integrity sha1-IwHF/78StGfejaIzOkWeKeeSDks=
 
+yargs-parser@20.0.0:
+  version "20.0.0"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/yargs-parser/-/yargs-parser-20.0.0.tgz?dl=https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-20.0.0.tgz#c65a1daaa977ad63cebdd52159147b789a4e19a9"
+  integrity sha1-xlodqql3rWPOvdUhWRR7eJpOGak=
+
+yargs-parser@21.0.1, yargs-parser@^21.0.0:
+  version "21.0.1"
+  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/yargs-parser/-/yargs-parser-21.0.1.tgz?dl=https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-21.0.1.tgz#0267f286c877a4f0f728fceb6f8a3e4cb95c6e35"
+  integrity sha1-Amfyhsh3pPD3KPzrb4o+TLlcbjU=
+
 yargs-parser@^20.2.2:
   version "20.2.9"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/yargs-parser/-/yargs-parser-20.2.9.tgz?dl=https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-20.2.9.tgz#2eb7dc3b0289718fc295f362753845c41a0c94ee"
   integrity sha1-LrfcOwKJcY/ClfNidThFxBoMlO4=
 
-yargs-parser@^21.0.0:
-  version "21.0.1"
-  resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/yargs-parser/-/yargs-parser-21.0.1.tgz?dl=https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-21.0.1.tgz#0267f286c877a4f0f728fceb6f8a3e4cb95c6e35"
-  integrity sha1-Amfyhsh3pPD3KPzrb4o+TLlcbjU=
-
-yargs@^16.1.1:
+yargs@^16.1.1, yargs@^16.2.0:
   version "16.2.0"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/yargs/-/yargs-16.2.0.tgz?dl=https://registry.yarnpkg.com/yargs/-/yargs-16.2.0.tgz#1c82bf0f6b6a66eafce7ef30e376f49a12477f66"
   integrity sha1-HIK/D2tqZur85+8w43b0mhJHf2Y=
@@ -6542,7 +7676,7 @@ yargs@^16.1.1:
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
 
-yargs@^17.2.1:
+yargs@^17.2.1, yargs@^17.4.0:
   version "17.5.1"
   resolved "http://npm.infra.cloudera.com:8081/artifactory/api/npm/cloudera-npm/yargs/-/yargs-17.5.1.tgz?dl=https://registry.yarnpkg.com/yargs/-/yargs-17.5.1.tgz#e109900cab6fcb7fd44b1d8249166feb0b36e58e"
   integrity sha1-4QmQDKtvy3/USx2CSRZv6ws25Y4=

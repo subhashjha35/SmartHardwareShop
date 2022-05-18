@@ -1,1 +1,13 @@
-<div>products-list</div>
+<div
+	fxLayout="row wrap"
+	fxLayout.lt-sm="column"
+	fxLayoutAlign="start stretch"
+	*ngIf="!!(searchResult$ | async)?.length">
+	<div
+		*ngFor="let item of searchResult$ | async"
+		fxFlex.gt-md="25%"
+		fxFlex.lt-md="33.33%"
+		fxFlex.lt-sm="50%">
+		<app-product [item]="item"></app-product>
+	</div>
+</div>
