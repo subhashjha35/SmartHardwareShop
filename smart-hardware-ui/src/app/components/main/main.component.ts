@@ -19,6 +19,7 @@ export class MainComponent implements OnInit, OnDestroy {
 	componentDestroyed = new Subject();
 
 	ngOnInit() {
+		this.store.dispatch(searchProducts({ searchStr: '' }));
 		this.areProductsLoading$ = this.store
 			.select(areProductsLoading)
 			.pipe(takeUntil(this.componentDestroyed));

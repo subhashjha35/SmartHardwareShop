@@ -1,3 +1,54 @@
-div {
-    background-color: yellow;
+.cart {
+    // margin: 10px;
+    padding: 10px;
+    .no-cart-message {
+        background-color: rgb(229, 246, 221);
+        color:rgb(6, 86, 6);
+        border-radius: 5px;
+        padding: 15px;
+        font-size: 20px;
+        text-align: center;
+
+    }
+    .total_amount {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        background-color: rgb(229, 246, 221);
+        margin-bottom: 5px;
+        font-size: larger;
+    }
+    .item-qty {
+        display: inline-block;
+        align-items: center;
+        margin-right: 5px;
+    }
+    .item {
+        display: flex;
+        margin-bottom: 5px;
+        align-items: center;
+        font-size: 14px;
+        justify-content: space-between;
+        button {
+            border:  1px solid #ccc;
+            border-radius: 2px;
+            background-color: #fff;
+            margin: 0px 2px;
+            cursor: pointer;
+            .mat-icon {
+                font-size: 18px;
+                height: 18px;
+                width: 18px;
+            }
+        }
+
+        button:last-of-type {
+            margin-right: 0px;
+            background-color: rgb(232, 134, 42);
+            border: 1px solid rgb(232, 134, 42);
+            color: #fff;
+        }
+    }
 }

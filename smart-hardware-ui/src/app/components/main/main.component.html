@@ -1,5 +1,10 @@
 <app-banner> </app-banner>
-<input type="search" (input)="searchProduct($event)" />
+<div class="search-box">
+	<input
+		type="search"
+		placeholder="Search here..."
+		(input)="searchProduct($event)" />
+</div>
 <app-product-list
 	*ngIf="(areProductsLoaded$ | async) === true"></app-product-list>
 <div

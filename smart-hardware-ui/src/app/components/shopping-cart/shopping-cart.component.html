@@ -1,12 +1,29 @@
-<div *ngIf="!(cartDetailedItems$ | async)?.length">The Cart is Empty</div>
+<div *ngIf="!(cartDetailedItems$ | async)?.length" class="cart">
+	<div class="no-cart-message">The Cart is Empty</div>
+</div>
 
-<div>
-	<div *ngFor="let item of cartDetailedItems$ | async">
-		{{ item.name }} - {{ item.quantity }}
-		<button (click)="addQty(item)">+</button>
-		<button (click)="removeQty(item)">-</button>
-		<button (click)="removeItem(item)">
-			<mat-icon>remove_shopping_cart</mat-icon>
-		</button>
+<div class="cart" *ngIf="!!(cartDetailedItems$ | async)?.length">
+	<div class="total_amount">
+		<div>Total:</div>
+		<div>
+			{{ totalPrice | currency }}
+		</div>
+	</div>
+	<div *ngFor="let item of cartDetailedItems$ | async" class="item">
+		<div>{{ item.name }}</div>
+		<div>
+			<span class="item-qty">
+				{{ item.quantity }}
+			</span>
+			<button (click)="removeQty(item)">
+				<mat-icon>remove</mat-icon>
+			</button>
+			<button (click)="addQty(item)">
+				<mat-icon>add</mat-icon>
+			</button>
+			<button (click)="removeItem(item)">
+				<mat-icon>delete</mat-icon>
+			</button>
+		</div>
 	</div>
 </div>
