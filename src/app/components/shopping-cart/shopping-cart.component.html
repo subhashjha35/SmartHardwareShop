@@ -1,1 +1,12 @@
-<div>shopping cart</div>
+<div *ngIf="!(cartDetailedItems$ | async)?.length">The Cart is Empty</div>
+
+<div>
+	<div *ngFor="let item of cartDetailedItems$ | async">
+		{{ item.name }} - {{ item.quantity }}
+		<button (click)="addQty(item)">+</button>
+		<button (click)="removeQty(item)">-</button>
+		<button (click)="removeItem(item)">
+			<mat-icon>remove_shopping_cart</mat-icon>
+		</button>
+	</div>
+</div>

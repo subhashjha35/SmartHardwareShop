@@ -7,3 +7,9 @@ export type Product = {
 	price: number;
 	discount: number;
 };
+
+export type Quantity = {
+	quantity: number;
+};
+
+export type CartDetailedProduct = Product & Quantity;

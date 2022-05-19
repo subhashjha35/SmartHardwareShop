@@ -10,7 +10,7 @@ import { Product } from 'src/app/model/product';
 	styleUrls: ['./product-list.component.scss'],
 })
 export class ProductListComponent implements OnInit, OnDestroy {
-	searchResult$: Observable<Product[]> = of([]);
+	searchResult$: Observable<Product[]>;
 
 	onDestroyed = new Subject();
 	constructor(private store: Store) {}

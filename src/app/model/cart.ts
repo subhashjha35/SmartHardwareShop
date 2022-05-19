@@ -1,7 +1,9 @@
 export type Cart = {
 	id: number; // User id
-	products: {
-		id: number;
-		quantity: number;
-	}[];
+	products: CartProduct[];
+};
+
+export type CartProduct = {
+	id: number;
+	quantity: number;
 };

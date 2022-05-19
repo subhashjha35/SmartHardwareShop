@@ -23,6 +23,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MainComponent } from './components/main/main.component';
 import { ProductEffects } from './effects/product.effects';
 import { HttpClientModule } from '@angular/common/http';
+import { CartEffects } from './effects/cart.effects';
 
 @NgModule({
 	declarations: [
@@ -51,7 +52,7 @@ import { HttpClientModule } from '@angular/common/http';
 			},
 		}),
 		StoreModule.forFeature('products', productReducer),
-		EffectsModule.forRoot([AppEffects, ProductEffects]),
+		EffectsModule.forRoot([AppEffects, ProductEffects, CartEffects]),
 		environment.production
 			? []
 			: StoreDevtoolsModule.instrument({
