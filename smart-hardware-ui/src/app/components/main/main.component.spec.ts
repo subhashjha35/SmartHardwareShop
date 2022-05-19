@@ -3,7 +3,7 @@ import { Spectator, createComponentFactory } from '@ngneat/spectator';
 import { Store } from '@ngrx/store';
 
 import { MainComponent } from './main.component';
-import { searchProducts } from 'smart-hardware-ui/src/app/actions/product.actions';
+import { searchProducts } from 'src/app/actions/product.actions';
 
 describe('MainComponent', () => {
 	let spectator: Spectator<MainComponent>;

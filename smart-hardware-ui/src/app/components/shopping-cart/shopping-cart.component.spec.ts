@@ -1,24 +1,23 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { createComponentFactory, Spectator } from '@ngneat/spectator';
+import { provideMockStore } from '@ngrx/store/testing';
 
 import { ShoppingCartComponent } from './shopping-cart.component';
 
 describe('ShoppingCartComponent', () => {
+	let spectator: Spectator<ShoppingCartComponent>;
 	let component: ShoppingCartComponent;
-	let fixture: ComponentFixture<ShoppingCartComponent>;
-
-	beforeEach(async () => {
-		await TestBed.configureTestingModule({
-			declarations: [ShoppingCartComponent],
-		}).compileComponents();
+	const initialState = {
+		cart: {
+			products: [],
+		},
+	};
+	const createComponent = createComponentFactory({
+		component: ShoppingCartComponent,
+		providers: [provideMockStore({ initialState })],
 	});
-
 	beforeEach(() => {
-		fixture = TestBed.createComponent(ShoppingCartComponent);
-		component = fixture.componentInstance;
-		fixture.detectChanges();
-	});
-
-	it('should create', () => {
-		expect(component).toBeTruthy();
+		spectator = createComponent();
+		component = spectator.component;
 	});
 });
