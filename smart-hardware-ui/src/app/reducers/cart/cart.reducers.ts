@@ -28,8 +28,7 @@ export const cartReducer = createReducer(
 			state.product.find(prod => prod.id === action.product.id) !==
 			undefined
 		) {
-			addQty({ id: action.product.id });
-			return state;
+			return reducer(state, addQty({ id: action.product.id }));
 		} else {
 			return {
 				...state,
@@ -78,5 +77,12 @@ export const getCartState = createFeatureSelector<CartState>('cart');
 
 export const getAllCartItems = createSelector(
 	getCartState,
-	(state: CartState) => state.product
+	(state: CartState) => {
+		const product = [...state.product];
+		if (product.length > 1) {
+			console.error(product);
+			product.sort((a, b) => a.id - b.id);
+		}
+		return product;
+	}
 );

@@ -12,13 +12,20 @@ import { addQty, removeFromCart, removeQty } from '../../actions/cart.actions';
 })
 export class ShoppingCartComponent implements OnInit, OnDestroy {
 	cartDetailedItems$: Observable<CartDetailedProduct[]>;
-
+	totalPrice = 0;
 	onDestroyed = new Subject();
 	constructor(private store: Store) {}
 	ngOnInit(): void {
 		this.cartDetailedItems$ = this.store
 			.select(cartDetailedSelector)
 			.pipe(takeUntil(this.onDestroyed));
+
+		this.cartDetailedItems$.subscribe(items => {
+			this.totalPrice = items.reduce(
+				(sum, item) => sum + item.price * item.quantity,
+				0
+			);
+		});
 	}
 
 	addQty(item: CartDetailedProduct) {

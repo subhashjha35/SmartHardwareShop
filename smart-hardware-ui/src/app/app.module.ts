@@ -10,7 +10,6 @@ import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { reducers, metaReducers } from './reducers';
 import { environment } from '../environments/environment';
-import { AppEffects } from './effects/app.effects';
 import { HeaderComponent } from './components/header/header.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
@@ -52,7 +51,7 @@ import { CartEffects } from './effects/cart.effects';
 			},
 		}),
 		StoreModule.forFeature('products', productReducer),
-		EffectsModule.forRoot([AppEffects, ProductEffects, CartEffects]),
+		EffectsModule.forRoot([ProductEffects, CartEffects]),
 		environment.production
 			? []
 			: StoreDevtoolsModule.instrument({
