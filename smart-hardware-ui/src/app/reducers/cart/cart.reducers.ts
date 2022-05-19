@@ -80,7 +80,6 @@ export const getAllCartItems = createSelector(
 	(state: CartState) => {
 		const product = [...state.product];
 		if (product.length > 1) {
-			console.error(product);
 			product.sort((a, b) => a.id - b.id);
 		}
 		return product;

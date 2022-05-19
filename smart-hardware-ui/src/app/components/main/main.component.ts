@@ -30,7 +30,6 @@ export class MainComponent implements OnInit, OnDestroy {
 	}
 
 	searchProduct(event: any) {
-		console.error('searchProduct called', event);
 		if (event.target.value.length >= 3) {
 			this.store.dispatch(
 				searchProducts({ searchStr: event.target.value })

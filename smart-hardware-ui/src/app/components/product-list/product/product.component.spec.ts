@@ -29,7 +29,7 @@ describe('ProductComponent', () => {
 	beforeEach(() => {
 		spectator = createComponent();
 		component = spectator.component;
-		store = TestBed.inject(Store);
+		store = spectator.inject(Store);
 		spyOn(store, 'dispatch');
 	});
 

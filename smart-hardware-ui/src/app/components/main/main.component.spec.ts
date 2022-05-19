@@ -31,18 +31,19 @@ describe('MainComponent', () => {
 	it('should create', () => {
 		expect(component).toBeTruthy();
 	});
+	describe('searchProduct', () => {
+		it('should dispatch searchResult Action', () => {
+			const mockEvent = {
+				target: {
+					value: 'dummyText',
+				},
+			};
+			component.searchProduct(mockEvent);
+			spectator.detectChanges();
 
-	it('should dispatch searchResult Action', () => {
-		const mockEvent = {
-			target: {
-				value: 'dummyText',
-			},
-		};
-		component.searchProduct(mockEvent);
-		spectator.detectChanges();
-
-		expect(store.dispatch).toHaveBeenCalledWith(
-			searchProducts({ searchStr: 'dummyText' })
-		);
+			expect(store.dispatch).toHaveBeenCalledWith(
+				searchProducts({ searchStr: 'dummyText' })
+			);
+		});
 	});
 });
